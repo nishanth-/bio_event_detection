@@ -1,0 +1,34 @@
+BioNLP Shared Tasks 2011
+
+
+Bacteria Biotopes Evaluation Software
+
+
+Changes in release 18 Feb 2011:
+  * fixed a bug that yielded message "SEVERE: role Host does not allow entity of type Host"
+
+Changees in release 01 Mar 2011:
+  * precision takes into account all predicted events (and not only partial and total matches)
+
+
+Usage:
+  java -jar BioNLP-ST_2011_Bacteria_Biotopes_evaluation_software.jar REFDIR PREDDIR
+
+where REFDIR is the directory containing the reference annotation files (including .txt, .a1 and .a2),
+and  PREDDIR is the directory containing the predicted annotation files (.a2 files only).
+
+The program will complain about missing or extra files (if any) in PREDDIR, or if any file does not parse correctly. It will also output the recall, precision and f-measure.
+
+
+Prerequisites:
+  JDK 6
+
+
+History:
+  25 Jan 2011: initial release
+  18 Feb 2011: bugfix release
+  01 Mar 2011: complete release
+
+BioNLP'11 Shared Task organizers,
+bionlpsharedtask@gmail.com
+http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/SharedTask/

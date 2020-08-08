@@ -1,0 +1,21 @@
+********************************************************************************************************
+*** Evaluation results
+*** Evaluation settings: mention-option = partial	link-option = atom	recall-option = system
+********************************************************************************************************
+
+===============================================
+EVALUATION OF MENTION DETECTION
+Number of gold mentions : 284
+Number of response mentions : 915
+Number of correct response mentions : 180
+Number of missing gold mentions : 104
+Number of spurious response mentions : 735
+P = 0.19672131147540983	R = 0.6338028169014085	F = 0.3002502085070893
+===============================================
+EVALUATION OF MENTION LINKING
+Number of gold links (points): 202
+Number of response links (points): 62
+Number of correct response links (points): 39
+Number of missing gold links (points) : 163
+Number of spurious response links (points): 23
+P = 0.6290322580645161	R = 0.19306930693069307	F = 0.29545454545454547

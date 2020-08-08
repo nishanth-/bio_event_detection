@@ -1,0 +1,22 @@
+BioNLPSTParams	convert:evaluate:scores
+detector	Detectors.EventDetector
+edge-classifier-parameter	c=10000
+edge-classifier-parameters-train	c=10000
+edge-example-style	genia_features
+edge-parse	McCC
+edge-task	GE11.2
+modifier-classifier-parameter	c=10000
+modifier-classifier-parameters-train	c=10000
+modifier-example-style	
+modifier-parse	McCC
+modifier-task	GE11.2
+recallAdjustParameter	0.7
+trigger-classifier-parameter	c=150000
+trigger-classifier-parameters-train	c=150000
+trigger-example-style	
+trigger-parse	McCC
+trigger-task	GE11.2
+unmerging-classifier-parameter	c=5000
+unmerging-example-style	
+unmerging-parse	McCC
+unmerging-task	GE11.2

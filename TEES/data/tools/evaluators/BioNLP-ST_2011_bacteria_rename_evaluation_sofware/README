@@ -1,0 +1,39 @@
+BioNLP Shared Task "Bacteria Renaming" evaluation software
+
+
+
+Requirements
+------------
+
+A Java Virtual Machine for Java 6, this software uses classes from the JDK 1.6.
+
+
+
+
+Usage
+-----
+
+java -jar eval_rename.jar REFERENCE_DIR PREDICTION_DIR
+
+
+
+Input
+-----
+
+REFERENCE_DIR: is a directory containing the reference set, this directory must contain `txt', 'a1' and `a2' files provided by the BioNLP Shared Tasks (the development set, for instance).
+PREDICTION_DIR: is a directory containing the predictions, this directory must contain `a2' files produced by the prediction system corresponding to the files in REFERENCE_DIR.
+
+
+
+Output
+------
+
+This sofware will print to the standard output the following information:
+  - number of renaming relations in the reference set
+  - number of renaming relations in the predicted set
+  - number of correct predicted relations (strict and relaxed)
+  - recall, precision and F-score (strict and relaxed)
+
+This software also prints some advancement information and possibly warnings to the standard error.
+
+The strict scores are informative only, the final evaluation will be relaxed.

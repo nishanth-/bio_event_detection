@@ -1,0 +1,19 @@
+BioNLP Shared Tasks 2011
+
+Bacteria Interactions evaluation software
+
+
+Usage:
+  java -jar BioNLP-ST_2011_bacteria_interactions_evaluation_software.jar REFDIR PREDDIR
+
+where REFDIR is the directory containing the reference annotation files (including .txt, .a1 and .a2),
+and  PREDDIR is the directory containing the predicted annotation files (.a2 files only).
+
+The program will complain about missing or extra files (if any) in PREDDIR, or if any file does not parse correctly. It will also output the recall, precision and f-measure for each event type and one set of scores for theall types together.
+
+Participants will have two rankings: one for the global F-score and one for the Interaction event type F-score.
+
+
+BioNLP'11 Shared Task organizers,
+bionlpsharedtask@gmail.com
+http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/SharedTask/

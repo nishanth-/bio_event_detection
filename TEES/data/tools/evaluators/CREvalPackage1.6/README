@@ -1,0 +1,57 @@
+Evaluation software for 
+the BioNLP Shared Task 2011 supporting task, Coreference Resolution
+
+- language: Java (6.0)
+- version: 1.0
+- release: 8 Nov, 2010
+
+
+This package includes the following files:
+
+README.txt		This file.
+CRScorer.jar		Evaluation program
+Example			A folder contains example input and output files.
+Example/testgold	A folder contains gold files ( *.txt, *.a1, *.a2)
+Example/testresp	A folder contains response files ( *.a2)
+Example/testresult	A folder contains two output files: eval.results and eval.details
+
+
+[USAGE]
+
+java -jar [-mention=strict|partial] [-link=atom|surface|ggp]
+          [-recall=system|algorithm] [-details] [gold_dir] [test_dir] [results_dir]
+
+Default: -mention=partial
+         -link=ggp
+         -recall=system
+
+Parameters:
+
+gold_dir   : contains gold files (*.txt, *.a1, and *.a2 files)
+test_dir   : contains files to be evaluated (*.a2 files)
+result_dir : contains the results of evaluation
+     * result_dir/eval.results	contains evaluation results
+     * result_dir/eval.details	contains details of evaluation results
+
+
+Options:
+
+-link=surface	  : links are evaluated based on all the gold links given in a2 files
+-link=atom	  : links are evaluated based on atom links, links between an anaphoric mention and a mention containing ggp, which are generated from surface links
+-link=ggp	  : links are evaluated based on ggp links, links between an anaphoric mention and a ggp, which are generated from surface links
+-mention=strict	  : spans are evaluated based on their exact boundaries
+-mention=partial  : spans are evaluated considering their max/min boundaries.
+-recall=system	  : the recall of evaluation is calculated based on the total number of links
+-recall=algorithm : the links that cannot be found due to failture of span recognition is removed before link evaluation.
+-details	  : tells it to produce the eval.details, which shows the details of evaluation.
+
+
+For more details, please refer to the shared task homepage:
+
+https://sites.google.com/site/bionlpst/home/protein-gene-coreference-task
+
+
+Authors:
+
+BioNLP Shared Task 2011 organizerss,
+bionlpsharedtask@gmail.com

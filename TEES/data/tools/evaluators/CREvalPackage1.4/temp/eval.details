@@ -1,0 +1,3253 @@
+********************************************************************************************************
+*** Evaluation details
+*** Evaluation settings: mention-option = partial	link-option = atom	recall-option = system
+********************************************************************************************************
+
+***********************************************
+PMID = PMID-1740667
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T21	1020	1025	which	
+----------- gold mention	T20	1020	1025	which	
+-----------------------------------------------
+Spurious response mention	T15	208	223	several kinases	
+Spurious response mention	T16	235	257	protein kinase C (PKC)	
+Spurious response mention	T17	259	263	that	
+Spurious response mention	T18	299	323	activation-related genes	
+Spurious response mention	T19	959	974	nuclear factors	
+Spurious response mention	T20	985	1018	NFAT-1, Oct, NF-kappa B, and AP-1	
+-----------------------------------------------
+Missing gold mention	T19	941	1018	941	954	binding sites	binding sites for nuclear factors including NFAT-1, Oct, NF-kappa B, and AP-1	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T20	Antecedent1=T19	1 point(s)	
+***********************************************
+PMID = PMID-7488149
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T11	115	137	A transcription factor	
+Spurious response mention	T12	115	148	A transcription factor NF kappa B	
+Spurious response mention	T13	150	155	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10101001
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T7	562	578	These procedures	
+Spurious response mention	T8	580	585	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9794389
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T32	859	863	that	
+----------- gold mention	T33	859	863	that	
+-----------------------------------------------
+Spurious response mention	T28	66	79	The mechanism	
+Spurious response mention	T29	83	88	which	
+Spurious response mention	T30	742	746	that	
+Spurious response mention	T31	803	816	the decreases	
+-----------------------------------------------
+Missing gold mention	T32	820	858	824	830	levels	the levels of c-Myc, Bcl-2, and Bcl-xL	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T33	Antecedent1=T32	3 point(s)	
+***********************************************
+PMID = PMID-10416957
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T14	153	157	that	
+----------- gold mention	T14	153	157	that	
+Correct response mention	T16	206	210	that	
+----------- gold mention	T16	206	210	that	
+Correct response mention	T13	138	152	the mutant p53	
+----------- gold mention	T13	138	152	149	152	p53	the mutant p53	
+Correct response mention	T15	192	205	wild type p53	
+----------- gold mention	T15	192	205	202	205	p53	wild type p53	
+-----------------------------------------------
+Spurious response mention	T17	428	457	Both TNF-alpha and NF-kappa B	
+Spurious response mention	T18	498	509	the pathway	
+Spurious response mention	T19	510	514	that	
+Spurious response mention	T20	679	693	the hypothesis	
+Spurious response mention	T21	694	698	that	
+Spurious response mention	T22	863	865	it	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T14	Antecedent1=T13	1 point(s)	
+----------- gold link	R1	Anaphor=T14	Antecedent1=T13	1 point(s)	
+-----------------------------------------------
+Spurious response link	R2	Anaphor=T16	Antecedent1=T13	1 point(s)	
+Spurious response link	R4	Anaphor=T18	Antecedent1=T17	1 point(s)	
+Spurious response link	R5	Anaphor=T19	Antecedent1=T17	1 point(s)	
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T16	Antecedent1=T15	1 point(s)	
+***********************************************
+PMID = PMID-10092076
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T12	315	341	the transcriptional events	
+Spurious response mention	T13	342	346	that	
+Spurious response mention	T14	537	542	their	
+Spurious response mention	T15	630	671	a consensus NF-kappaB- reporter construct	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10395645
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T11	202	215	various genes	
+Spurious response mention	T12	216	220	that	
+Spurious response mention	T13	202	224	various genes that act	
+Spurious response mention	T14	345	372	cell-permeable SN50 peptide	
+Spurious response mention	T15	374	379	which	
+Spurious response mention	T16	455	460	their	
+Spurious response mention	T17	928	936	contrast	
+Spurious response mention	T18	940	944	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8913871
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T3	324	337	a side effect	
+Spurious response mention	T4	339	344	which	
+Spurious response mention	T5	668	693	the biological properties	
+Spurious response mention	T6	697	732	the compounds ZK161422 and ZK157202	
+Spurious response mention	T7	734	739	which	
+Spurious response mention	T8	744	798	20-methyl- and 20-methyl-23-eneanalogues, respectively	
+Spurious response mention	T9	842	856	Both compounds	
+Spurious response mention	T10	945	947	VD	
+Spurious response mention	T11	949	954	their	
+Spurious response mention	T12	1602	1609	a model	
+Spurious response mention	T13	1614	1619	which	
+Spurious response mention	T14	1602	1610	a model,	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7747417
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T12	282	284	It	
+----------- gold mention	T13	282	284	It	
+-----------------------------------------------
+Spurious response mention	T13	805	809	that	
+Spurious response mention	T14	951	955	HCMV	
+Spurious response mention	T15	957	962	which	
+-----------------------------------------------
+Missing gold mention	T12	132	184	140	152	gene product	The IE2 gene product of human cytomegalovirus (HCMV)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T13	Antecedent1=T12	1 point(s)	
+***********************************************
+PMID = PMID-8135780
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T15	435	445	NF-kappa B	
+Spurious response mention	T16	435	477	NF-kappa B, which is mainly induced by PMA	
+Spurious response mention	T17	447	452	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-1700011
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T21	717	722	which	
+----------- gold mention	T18	717	722	which	
+Correct response mention	T23	818	842	c-Fos/c-Jun heterodimers	
+----------- gold mention	T19	818	842	c-Fos/c-Jun heterodimers	
+Correct response mention	T24	868	872	they	
+----------- gold mention	T20	868	872	they	
+Correct response mention	T20	692	715	the human c-Jun protein	
+----------- gold mention	T17	692	715	the human c-Jun protein	
+-----------------------------------------------
+Spurious response mention	T10	0	5	NF-X2	
+Spurious response mention	T11	6	10	that	
+Spurious response mention	T12	38	57	activator protein 1	
+Spurious response mention	T13	115	123	a family	
+Spurious response mention	T14	155	160	Their	
+Spurious response mention	T15	262	267	their	
+Spurious response mention	T16	434	468	these cis-acting regulatory motifs	
+Spurious response mention	T17	472	482	the X2-box	
+Spurious response mention	T18	486	491	which	
+Spurious response mention	T19	623	638	This cDNA clone	
+Spurious response mention	T22	692	731	the human c-Jun protein, which together	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R7	Anaphor=T24	Antecedent1=T23	2 point(s)	
+----------- gold link	R6	Anaphor=T20	Antecedent1=T19	2 point(s)	
+Correct response link	R5	Anaphor=T21	Antecedent1=T20	1 point(s)	
+----------- gold link	R5	Anaphor=T18	Antecedent1=T17	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8623933
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T28	2190	2195	which	
+----------- gold mention	T33	2190	2195	which	
+Correct response mention	T26	390	393	its	
+----------- gold mention	T27	390	393	its	
+-----------------------------------------------
+Spurious response mention	T24	134	148	Animal lectins	
+Spurious response mention	T25	211	216	their	
+Spurious response mention	T27	1304	1309	which	
+Spurious response mention	T29	2067	2082	the possibility	
+Spurious response mention	T30	2083	2087	that	
+-----------------------------------------------
+Missing gold mention	T26	249	259	Galectin-3	
+Missing gold mention	T32	2178	2188	galectin-3	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T27	Antecedent1=T26	1 point(s)	
+Missing gold link	R5	Anaphor=T33	Antecedent1=T32	1 point(s)	
+***********************************************
+PMID = PMID-7492771
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T18	891	896	which	
+----------- gold mention	T18	891	896	which	
+Correct response mention	T17	874	889	I kappa B alpha	
+----------- gold mention	T17	874	889	I kappa B alpha	
+-----------------------------------------------
+Spurious response mention	T19	1267	1288	The clinical benefits	
+Spurious response mention	T20	1292	1303	salicylates	
+Spurious response mention	T21	1412	1417	their	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T18	Antecedent1=T17	1 point(s)	
+----------- gold link	R1	Anaphor=T18	Antecedent1=T17	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9233628
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T21	290	316	high level IL-2 production	
+----------- gold mention	T21	290	316	306	316	production	high level IL-2 production	
+Correct response mention	T22	318	323	which	
+----------- gold mention	T22	318	323	which	
+-----------------------------------------------
+Spurious response mention	T23	875	890	this conclusion	
+Spurious response mention	T24	1229	1252	four specific complexes	
+Spurious response mention	T25	1280	1293	this sequence	
+Spurious response mention	T26	1307	1322	these complexes	
+Spurious response mention	T27	1427	1460	this CD28RE/AP-1-specific complex	
+Spurious response mention	T28	1499	1507	the fact	
+Spurious response mention	T29	1508	1512	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T22	Antecedent1=T21	1 point(s)	
+----------- gold link	R1	Anaphor=T22	Antecedent1=T21	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8675228
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T25	1657	1667	these data	
+Spurious response mention	T26	1689	1717	the intracellular mechanisms	
+Spurious response mention	T27	1721	1726	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8892614
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T22	1355	1362	T cells	
+Spurious response mention	T23	1419	1424	their	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8108127
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T26	354	370	a viral oncogene	
+Spurious response mention	T27	371	375	that	
+Spurious response mention	T28	1158	1177	the NFKB2 precursor	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9852070
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	364	367	Its	
+----------- gold mention	T18	364	367	Its	
+-----------------------------------------------
+Spurious response mention	T18	541	590	tumor necrosis factor receptor-associated factors	
+Spurious response mention	T19	1403	1436	An NH2-terminal truncation mutant	
+Spurious response mention	T20	1456	1491	RANKL-mediated NF-kappaB activation	
+-----------------------------------------------
+Missing gold mention	T17	184	222	Receptor activator of NF-kappaB (RANK)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T18	Antecedent1=T17	2 point(s)	
+***********************************************
+PMID = PMID-7499267
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T37	1457	1462	whose	
+----------- gold mention	T38	1457	1462	whose	
+Correct response mention	T29	430	432	it	
+----------- gold mention	T30	430	432	it	
+Correct response mention	T36	1428	1455	the constitutive Sp1 factor	
+----------- gold mention	T37	1428	1455	1449	1455	factor	the constitutive Sp1 factor	
+-----------------------------------------------
+Spurious response mention	T30	700	717	The three regions	
+Spurious response mention	T31	766	771	which	
+Spurious response mention	T32	870	875	which	
+Spurious response mention	T33	956	972	a distal element	
+Spurious response mention	T34	985	989	-224	
+Spurious response mention	T35	991	996	which	
+-----------------------------------------------
+Missing gold mention	T29	235	390	249	254	basis	the molecular basis of the synergistic induction by interferon-gamma (IFN-gamma)/tumor necrosis factor-alpha (TNF-alpha) of human interleukin-6 (IL-6) gene	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T37	Antecedent1=T36	1 point(s)	
+----------- gold link	R5	Anaphor=T38	Antecedent1=T37	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T30	Antecedent1=T29	6 point(s)	
+***********************************************
+PMID = PMID-10092801
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T7	253	255	us	
+Spurious response mention	T8	391	413	the maturation defects	
+Spurious response mention	T9	1179	1184	their	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7747440
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T18	729	734	which	
+----------- gold mention	T18	729	734	which	
+Correct response mention	T17	696	721	a novel fusion transcript	
+----------- gold mention	T17	696	727	711	721	transcript	a novel fusion transcript (RAZ)	
+Correct response mention	T13	140	143	its	
+----------- gold mention	T14	140	143	its	
+-----------------------------------------------
+Spurious response mention	T14	513	518	where	
+Spurious response mention	T15	519	529	the genome	
+Spurious response mention	T16	678	692	The appearance	
+Spurious response mention	T19	828	841	ZEBRA protein	
+Spurious response mention	T20	1037	1055	the Cp/Wp promoter	
+Spurious response mention	T21	1056	1061	which	
+Spurious response mention	T22	1502	1505	EBV	
+Spurious response mention	T23	1517	1539	a linear configuration	
+Spurious response mention	T24	1545	1550	which	
+-----------------------------------------------
+Missing gold mention	T13	129	135	BZLF-1	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T14	Antecedent1=T13	1 point(s)	
+Missing gold link	R3	Anaphor=T18	Antecedent1=T17	1 point(s)	
+***********************************************
+PMID = PMID-8134378
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T22	1498	1502	they	
+----------- gold mention	T18	1498	1502	they	
+Correct response mention	T20	1395	1407	these motifs	
+----------- gold mention	T16	1380	1432	1401	1407	motifs	one or more of these motifs within the IL-6 promoter	
+-----------------------------------------------
+Spurious response mention	T14	764	791	the mycobacterial cell wall	
+Spurious response mention	T15	793	798	which	
+Spurious response mention	T16	1187	1212	Two nuclear factor NF-IL6	
+Spurious response mention	T17	1187	1252	Two nuclear factor NF-IL6 (positions -153 to -145 and -83 to -75)	
+Spurious response mention	T18	1187	1316	Two nuclear factor NF-IL6 (positions -153 to -145 and -83 to -75) and one nuclear factor NF-kappa B (positions -72 to -63) motifs	
+Spurious response mention	T19	1257	1316	one nuclear factor NF-kappa B (positions -72 to -63) motifs	
+Spurious response mention	T21	1460	1488	positive regulatory activity	
+Spurious response mention	T23	1516	1562	a function- and orientation-independent manner	
+Spurious response mention	T24	1682	1713	the NF-IL6 and NF-kappa B sites	
+-----------------------------------------------
+Missing gold mention	T17	1451	1455	each	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T17	Antecedent1=T16	1 point(s)	
+Missing gold link	R3	Anaphor=T18	Antecedent1=T16	1 point(s)	
+***********************************************
+PMID = PMID-8877104
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T12	776	781	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9234696
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T22	516	521	c-Raf	
+----------- gold mention	T21	516	521	c-Raf	
+Correct response mention	T23	523	528	which	
+----------- gold mention	T22	523	528	which	
+Correct response mention	T29	1094	1099	which	
+----------- gold mention	T27	1094	1099	which	
+Correct response mention	T28	1073	1092	the distal enhancer	
+----------- gold mention	T26	1073	1092	1084	1092	enhancer	the distal enhancer	
+Correct response mention	T24	862	864	it	
+----------- gold mention	T25	862	864	it	
+-----------------------------------------------
+Spurious response mention	T18	178	203	two major signal cascades	
+Spurious response mention	T19	399	432	Prominent protein kinase cascades	
+Spurious response mention	T20	437	442	those	
+Spurious response mention	T21	443	447	that	
+Spurious response mention	T25	1040	1069	a dyad symmetry element (DSE)	
+Spurious response mention	T26	1042	1063	dyad symmetry element	
+Spurious response mention	T27	1042	1069	dyad symmetry element (DSE)	
+-----------------------------------------------
+Missing gold mention	T24	819	854	837	854	promoter-enhancer	the proximal IL-2 promoter-enhancer	
+Missing gold mention	T23	767	792	784	792	enhancer	this distal IL-2 enhancer	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T23	Antecedent1=T22	1 point(s)	
+----------- gold link	R3	Anaphor=T22	Antecedent1=T21	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R4	Anaphor=T25	Antecedent1=T24	1 point(s)	
+Missing gold link	R5	Anaphor=T26	Antecedent1=T23	1 point(s)	
+Missing gold link	R6	Anaphor=T27	Antecedent1=T23	1 point(s)	
+***********************************************
+PMID = PMID-7499266
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	355	360	which	
+----------- gold mention	T16	355	360	which	
+Correct response mention	T15	311	334	a rapid phosphorylation	
+----------- gold mention	T15	311	353	319	334	phosphorylation	a rapid phosphorylation of I kappa B alpha	
+Correct response mention	T13	115	118	its	
+----------- gold mention	T14	115	118	its	
+-----------------------------------------------
+Spurious response mention	T14	296	301	cells	
+Spurious response mention	T16	338	353	I kappa B alpha	
+Spurious response mention	T18	651	659	a kinase	
+Spurious response mention	T19	682	726	the LPS-stimulated human monocytic cell line	
+Spurious response mention	T20	728	733	THP-1	
+Spurious response mention	T21	735	739	that	
+Spurious response mention	T22	1027	1043	the bound kinase	
+Spurious response mention	T23	1230	1267	the LPS-induced NF-kappa B activation	
+-----------------------------------------------
+Missing gold mention	T13	18	62	56	62	kinase	an I kappa B alpha-associated protein kinase	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T14	Antecedent1=T13	1 point(s)	
+Missing gold link	R2	Anaphor=T16	Antecedent1=T15	1 point(s)	
+***********************************************
+PMID = PMID-10403270
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T12	255	260	their	
+Spurious response mention	T13	740	765	the monoclonal antibodies	
+Spurious response mention	T14	767	772	mAECA	
+Spurious response mention	T15	774	779	which	
+Spurious response mention	T16	1568	1573	which	
+Spurious response mention	T17	2076	2087	these mAECA	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9032466
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	415	418	one	
+Spurious response mention	T11	415	427	one of which	
+Spurious response mention	T12	422	427	which	
+Spurious response mention	T13	431	448	hypochlorous acid	
+Spurious response mention	T14	431	455	hypochlorous acid (HOCl)	
+Spurious response mention	T15	450	454	HOCl	
+Spurious response mention	T16	457	462	which	
+Spurious response mention	T17	1535	1543	the fact	
+Spurious response mention	T18	1544	1548	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9353251
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T37	1180	1199	intracellular TRAF2	
+----------- gold mention	T34	1180	1199	1194	1199	TRAF2	intracellular TRAF2	
+Correct response mention	T35	1073	1076	its	
+----------- gold mention	T33	1073	1076	its	
+Correct response mention	T38	1204	1207	its	
+----------- gold mention	T35	1204	1207	its	
+-----------------------------------------------
+Spurious response mention	T23	135	158	a cell-surface receptor	
+Spurious response mention	T24	159	163	that	
+Spurious response mention	T25	219	222	its	
+Spurious response mention	T26	637	640	One	
+Spurious response mention	T27	644	656	the proteins	
+Spurious response mention	T28	657	661	that	
+Spurious response mention	T29	671	682	these sites	
+Spurious response mention	T30	693	723	a signal transduction molecule	
+Spurious response mention	T31	724	728	that	
+Spurious response mention	T32	980	1002	the associated protein	
+Spurious response mention	T33	1044	1051	a model	
+Spurious response mention	T34	1055	1060	which	
+Spurious response mention	T36	1167	1229	Depletion of intracellular TRAF2 and its coassociated proteins	
+Spurious response mention	T39	1507	1528	a potential mechanism	
+Spurious response mention	T40	1537	1542	which	
+-----------------------------------------------
+Missing gold mention	T32	1061	1065	CD30	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R5	Anaphor=T38	Antecedent1=T37	1 point(s)	
+----------- gold link	R7	Anaphor=T35	Antecedent1=T34	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R6	Anaphor=T33	Antecedent1=T32	1 point(s)	
+***********************************************
+PMID = PMID-8621773
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T2	106	125	a metalloproteinase	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9211933
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T24	1204	1209	which	
+----------- gold mention	T24	1204	1209	which	
+-----------------------------------------------
+Spurious response mention	T21	600	608	a region	
+Spurious response mention	T22	639	643	that	
+Spurious response mention	T23	726	737	Two regions	
+Spurious response mention	T25	1395	1399	they	
+-----------------------------------------------
+Missing gold mention	T23	1175	1202	1197	1202	sites	the Egr-1 and kappaB3 sites	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T24	Antecedent1=T23	1 point(s)	
+***********************************************
+PMID = PMID-9507734
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T6	1522	1527	which	
+----------- gold mention	T3	1522	1527	which	
+-----------------------------------------------
+Spurious response mention	T2	933	960	A similar adhesive response	
+Spurious response mention	T3	977	997	TNF alpha (100 U/ml)	
+Spurious response mention	T4	1463	1473	the nuclei	
+Spurious response mention	T5	1477	1481	PAEC	
+Spurious response mention	T7	1967	1975	Findings	
+Spurious response mention	T8	1976	1980	that	
+-----------------------------------------------
+Missing gold mention	T2	1411	1459	1422	1430	staining	a positive staining for NF-kappa B (p65 subunit)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T3	Antecedent1=T2	1 point(s)	
+***********************************************
+PMID = PMID-1719551
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T12	249	258	a fashion	
+Spurious response mention	T13	259	263	that	
+Spurious response mention	T14	603	607	JunB	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-1355356
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T29	493	496	its	
+----------- gold mention	T16	493	496	its	
+Correct response mention	T14	425	444	The v-erb A protein	
+----------- gold mention	T14	425	444	437	444	protein	The v-erb A protein	
+-----------------------------------------------
+Spurious response mention	T12	239	250	The protein	
+Spurious response mention	T13	348	376	the thyroid hormone receptor	
+Spurious response mention	T15	459	485	two amino acid alterations	
+Spurious response mention	T16	493	515	its DNA-binding domain	
+Spurious response mention	T17	528	532	that	
+Spurious response mention	T18	536	543	c-erb A	
+Spurious response mention	T19	545	548	one	
+Spurious response mention	T20	545	557	one of which	
+Spurious response mention	T21	552	557	which	
+Spurious response mention	T22	562	571	serine 61	
+Spurious response mention	T23	622	641	the neoplastic cell	
+Spurious response mention	T24	493	548	its DNA-binding domain relative to that of c-erb A, one	
+Spurious response mention	T25	528	548	that of c-erb A, one	
+Spurious response mention	T26	528	558	that of c-erb A, one of which,	
+Spurious response mention	T27	536	548	c-erb A, one	
+Spurious response mention	T28	536	558	c-erb A, one of which,	
+Spurious response mention	T30	772	784	the sequence	
+Spurious response mention	T31	811	813	it	
+Spurious response mention	T32	824	828	that	
+Spurious response mention	T33	832	839	c-erb A	
+Spurious response mention	T34	851	875	an intragenic suppressor	
+Spurious response mention	T35	806	810	that	
+Spurious response mention	T36	1168	1170	It	
+Spurious response mention	T37	1233	1248	these two sites	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T16	Antecedent1=T14	1 point(s)	
+***********************************************
+PMID = PMID-7747447
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T11	1268	1280	this complex	
+----------- gold mention	T12	1268	1280	this complex	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold mention	T11	1159	1249	1175	1182	complex	a transcription complex involving general transcription factors, HIV Tat, and Sp1 proteins	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T12	Antecedent1=T11	2 point(s)	
+***********************************************
+PMID = PMID-9043959
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	925	949	the minimal CD4 silencer	
+----------- gold mention	T16	925	949	941	949	silencer	the minimal CD4 silencer	
+Correct response mention	T18	950	955	which	
+----------- gold mention	T17	950	955	which	
+-----------------------------------------------
+Spurious response mention	T14	0	10	Thymocytes	
+Spurious response mention	T15	363	373	thymocytes	
+Spurious response mention	T16	621	624	its	
+Spurious response mention	T19	1047	1078	the most immature DN thymocytes	
+Spurious response mention	T20	1080	1085	which	
+Spurious response mention	T21	1441	1446	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T18	Antecedent1=T17	1 point(s)	
+----------- gold link	R2	Anaphor=T17	Antecedent1=T16	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9794238
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T12	1416	1424	TNFalpha	
+----------- gold mention	T13	1416	1424	TNFalpha	
+-----------------------------------------------
+Spurious response mention	T11	306	311	which	
+Spurious response mention	T13	1426	1431	which	
+-----------------------------------------------
+Missing gold mention	T14	1471	1484	1476	1484	cytokine	this cytokine	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T13	Antecedent1=T12	1 point(s)	
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T14	Antecedent1=T13	1 point(s)	
+***********************************************
+PMID = PMID-9794375
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T43	1692	1697	their	
+----------- gold mention	T44	1692	1697	their	
+Correct response mention	T40	1609	1627	CD3, CD28, and CD2	
+----------- gold mention	T41	1609	1627	CD3, CD28, and CD2	
+Correct response mention	T42	1675	1679	they	
+----------- gold mention	T43	1675	1679	they	
+Correct response mention	T37	871	886	these receptors	
+----------- gold mention	T40	871	886	877	886	receptors	these receptors	
+Correct response mention	T38	790	793	its	
+----------- gold mention	T39	790	793	its	
+Correct response mention	T35	315	330	these receptors	
+----------- gold mention	T35	315	330	321	330	receptors	these receptors	
+-----------------------------------------------
+Spurious response mention	T34	244	275	functionally distinct receptors	
+Spurious response mention	T36	395	427	intracellular signaling proteins	
+Spurious response mention	T39	1475	1504	the tyrosine phosphatase CD45	
+Spurious response mention	T41	1614	1618	CD28	
+-----------------------------------------------
+Missing gold mention	T34	221	239	CD3, CD2, and CD28	
+Missing gold mention	T37	704	723	708	723	phosphorylation	HS1 phosphorylation	
+Missing gold mention	T38	758	776	CD3, CD2, and CD28	
+Missing gold mention	T42	1645	1673	1664	1673	molecules	the same signaling molecules	
+Missing gold mention	T36	377	518	386	391	group	a shared group of intracellular signaling proteins, including Vav, Cbl, p85 phosphoinositide 3-kinase, and the Src family kinases Lck and Fyn	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T42	Antecedent1=T40	2 point(s)	
+----------- gold link	R5	Anaphor=T43	Antecedent1=T41	2 point(s)	
+Correct response link	R2	Anaphor=T43	Antecedent1=T40	2 point(s)	
+----------- gold link	R6	Anaphor=T44	Antecedent1=T41	2 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T35	Antecedent1=T34	2 point(s)	
+Missing gold link	R2	Anaphor=T39	Antecedent1=T37	1 point(s)	
+Missing gold link	R3	Anaphor=T40	Antecedent1=T38	2 point(s)	
+Missing gold link	R4	Anaphor=T42	Antecedent1=T36	5 point(s)	
+***********************************************
+PMID = PMID-1712226
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	990	999	this gene	
+----------- gold mention	T18	990	999	this gene	
+-----------------------------------------------
+Spurious response mention	T18	1026	1030	that	
+Spurious response mention	T19	1250	1254	that	
+Spurious response mention	T20	1366	1370	that	
+Spurious response mention	T21	1563	1574	these genes	
+Spurious response mention	T22	1595	1623	nuclear signaling mechanisms	
+Spurious response mention	T23	1624	1628	that	
+-----------------------------------------------
+Missing gold mention	T17	951	965	the jun-B gene	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T18	Antecedent1=T17	1 point(s)	
+***********************************************
+PMID = PMID-10090947
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T18	254	284	transcription factor NF-kappaB	
+Spurious response mention	T19	286	291	which	
+Spurious response mention	T20	380	396	the HTLV-I genes	
+Spurious response mention	T21	1184	1197	the NF-kappaB	
+Spurious response mention	T22	1245	1249	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8621538
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T8	241	245	that	
+----------- gold mention	T8	241	245	that	
+Correct response mention	T7	206	233	a transcriptional activator	
+----------- gold mention	T7	206	240	224	233	activator	a transcriptional activator (META)	
+-----------------------------------------------
+Spurious response mention	T6	63	92	the mouse mammary tumor virus	
+Spurious response mention	T9	359	363	that	
+Spurious response mention	T10	367	391	several lymphokine genes	
+Spurious response mention	T11	433	438	their	
+Spurious response mention	T12	1293	1333	a novel transcriptional enhancer element	
+Spurious response mention	T13	1334	1338	that	
+Spurious response mention	T14	1293	1349	a novel transcriptional enhancer element that is similar	
+Spurious response mention	T15	1353	1356	its	
+Spurious response mention	T16	1444	1446	It	
+-----------------------------------------------
+Missing gold mention	T6	16	92	34	43	activator	a transcriptional activator in the env gene of the mouse mammary tumor virus	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T7	Antecedent1=T6	1 point(s)	
+Missing gold link	R2	Anaphor=T8	Antecedent1=T6	1 point(s)	
+***********************************************
+PMID = PMID-9799798
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T14	299	303	that	
+-----------------------------------------------
+Missing gold mention	T15	1275	1302	1281	1302	transcription factors	these transcription factors	
+Missing gold mention	T14	1221	1233	Sp1 and AP-2	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T15	Antecedent1=T14	1 point(s)	
+***********************************************
+PMID = PMID-8910577
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T14	1235	1244	this gene	
+----------- gold mention	T15	1235	1244	this gene	
+-----------------------------------------------
+Spurious response mention	T10	117	137	a cellular organelle	
+Spurious response mention	T11	138	142	that	
+Spurious response mention	T12	726	732	motifs	
+Spurious response mention	T13	733	737	that	
+-----------------------------------------------
+Missing gold mention	T14	1200	1205	Sp140	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T15	Antecedent1=T14	1 point(s)	
+***********************************************
+PMID = PMID-8108414
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T36	279	282	its	
+----------- gold mention	T37	279	282	its	
+Correct response mention	T37	586	589	its	
+----------- gold mention	T39	586	589	its	
+Correct response mention	T40	1364	1369	which	
+----------- gold mention	T41	1364	1369	which	
+Correct response mention	T39	1358	1362	RelA	
+----------- gold mention	T40	1358	1362	RelA	
+-----------------------------------------------
+Spurious response mention	T38	1323	1354	the nuclear localization signal	
+Spurious response mention	T41	1457	1492	the C-terminal ankyrin motif domain	
+Spurious response mention	T42	1494	1499	which	
+Spurious response mention	T43	786	790	that	
+Spurious response mention	T44	1736	1740	that	
+-----------------------------------------------
+Missing gold mention	T36	122	132	RelA (p65)	
+Missing gold mention	T38	538	570	I kappa B alpha in human T cells	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T37	Antecedent1=T36	2 point(s)	
+Missing gold link	R2	Anaphor=T39	Antecedent1=T38	1 point(s)	
+Missing gold link	R3	Anaphor=T41	Antecedent1=T40	1 point(s)	
+***********************************************
+PMID = PMID-9804806
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T13	408	434	two kinases, IKK1 and IKK2	
+Spurious response mention	T14	455	489	the IkappaB cytoplasmic inhibitors	
+Spurious response mention	T15	541	554	these kinases	
+Spurious response mention	T16	607	629	NF-kappaB/Rel proteins	
+Spurious response mention	T17	907	923	maximal activity	
+Spurious response mention	T18	944	949	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9164841
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T15	531	534	its	
+Spurious response mention	T16	709	733	several HBD subfragments	
+Spurious response mention	T17	927	931	18C7	
+Spurious response mention	T18	964	966	it	
+Spurious response mention	T19	995	1012	(20%) the hormone	
+Spurious response mention	T20	996	999	20%	
+Spurious response mention	T21	1001	1012	the hormone	
+Spurious response mention	T22	1018	1021	its	
+Spurious response mention	T23	1534	1546	the receptor	
+Spurious response mention	T24	1374	1377	its	
+Spurious response mention	T25	1575	1586	the epitope	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7510691
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T18	0	45	The interleukin-8 AP-1 and kappa B-like sites	
+Spurious response mention	T19	628	646	the transcriptions	
+Spurious response mention	T20	740	745	those	
+Spurious response mention	T21	856	869	the AP-1 site	
+Spurious response mention	T22	873	910	PMA/ionomycin-induced nuclear factors	
+Spurious response mention	T23	912	917	which	
+Spurious response mention	T24	1030	1043	the formation	
+Spurious response mention	T25	1047	1082	kappa B-like site binding complexes	
+Spurious response mention	T26	1084	1089	which	
+Spurious response mention	T27	1333	1357	immunoglobulin (Ig) gene	
+Spurious response mention	T28	1362	1367	which	
+Spurious response mention	T29	1220	1239	the previous report	
+Spurious response mention	T30	1240	1244	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9796702
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T25	273	312	this guanine nucleotide binding protein	
+----------- gold mention	T26	273	312	305	312	protein	this guanine nucleotide binding protein	
+Correct response mention	T31	1079	1083	that	
+----------- gold mention	T32	1079	1083	that	
+Correct response mention	T30	1054	1078	a Rac-1 mediated pathway	
+----------- gold mention	T31	1054	1078	1071	1078	pathway	a Rac-1 mediated pathway	
+-----------------------------------------------
+Spurious response mention	T26	519	550	Activation of this lipid kinase	
+Spurious response mention	T27	533	550	this lipid kinase	
+Spurious response mention	T28	929	944	the possibility	
+Spurious response mention	T29	945	949	that	
+-----------------------------------------------
+Missing gold mention	T25	114	120	p21ras	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T31	Antecedent1=T30	1 point(s)	
+----------- gold link	R4	Anaphor=T32	Antecedent1=T31	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T26	Antecedent1=T25	1 point(s)	
+***********************************************
+PMID = PMID-9825820
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T18	396	406	porcine EC	
+Spurious response mention	T19	417	422	which	
+Spurious response mention	T20	1915	1934	E-selectin and IL-8	
+Spurious response mention	T21	1930	1934	IL-8	
+Spurious response mention	T22	1936	1941	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R2	Anaphor=T22	Antecedent1=T20	2 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-8621480
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T9	215	220	whose	
+----------- gold mention	T9	215	220	whose	
+Correct response mention	T13	649	652	its	
+----------- gold mention	T11	649	652	its	
+Correct response mention	T8	183	214	a cyclophilin B-binding protein	
+----------- gold mention	T8	183	214	a cyclophilin B-binding protein	
+-----------------------------------------------
+Spurious response mention	T10	417	430	the CAML gene	
+Spurious response mention	T11	603	634	the hydrophobic C-terminal tail	
+Spurious response mention	T12	603	642	the hydrophobic C-terminal tail of CAML	
+Spurious response mention	T14	765	786	a novel protein motif	
+Spurious response mention	T15	787	791	that	
+Spurious response mention	T16	765	801	a novel protein motif that functions	
+-----------------------------------------------
+Missing gold mention	T10	638	642	CAML	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T9	Antecedent1=T8	1 point(s)	
+----------- gold link	R1	Anaphor=T9	Antecedent1=T8	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T11	Antecedent1=T10	1 point(s)	
+***********************************************
+PMID = PMID-10409763
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T27	306	310	that	
+----------- gold mention	T27	306	310	that	
+-----------------------------------------------
+Spurious response mention	T26	251	305	the Epstein-Barr virus (EBV) transforming protein LMP1	
+Spurious response mention	T28	251	336	the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates	
+Spurious response mention	T29	636	640	LMP1	
+Spurious response mention	T30	917	921	LMP1	
+Spurious response mention	T31	1297	1301	LMP1	
+Spurious response mention	T32	1443	1469	the molecular interactions	
+Spurious response mention	T33	1478	1483	which	
+-----------------------------------------------
+Missing gold mention	T26	241	305	243	247	site	A site in the Epstein-Barr virus (EBV) transforming protein LMP1	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T27	Antecedent1=T26	1 point(s)	
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T27	Antecedent1=T26	1 point(s)	
+***********************************************
+PMID = PMID-9164948
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T9	477	489	The sequence	
+Spurious response mention	T10	493	498	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9164919
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T3	358	368	these mice	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8662960
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T8	1082	1097	the beta-globin	
+Spurious response mention	T9	1213	1237	protein-DNA interactions	
+Spurious response mention	T10	1238	1242	that	
+Spurious response mention	T11	1282	1294	globin genes	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7479915
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	348	383	the transcription factor NF-kappa B	
+Spurious response mention	T11	385	390	which	
+Spurious response mention	T12	634	648	These syncytia	
+Spurious response mention	T13	1171	1174	DCs	
+Spurious response mention	T14	1180	1183	Sp1	
+Spurious response mention	T15	1185	1190	which	
+Spurious response mention	T16	1299	1334	the heterologous DC-T-cell syncytia	
+Spurious response mention	T17	1335	1339	that	
+Spurious response mention	T18	1415	1422	factors	
+Spurious response mention	T19	1423	1427	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9233802
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T21	612	625	These factors	
+----------- gold mention	T21	612	625	618	625	factors	These factors	
+Correct response mention	T27	1336	1341	which	
+----------- gold mention	T27	1336	1341	which	
+Correct response mention	T26	1315	1334	the alpha4 integrin	
+----------- gold mention	T26	1315	1334	1326	1334	integrin	the alpha4 integrin	
+Correct response mention	T24	1029	1042	these factors	
+----------- gold mention	T25	1029	1042	1035	1042	factors	these factors	
+-----------------------------------------------
+Spurious response mention	T12	81	95	The Zfh family	
+Spurious response mention	T13	156	166	Drosophila	
+Spurious response mention	T14	167	172	where	
+Spurious response mention	T15	173	175	it	
+Spurious response mention	T16	432	435	ZEB	
+Spurious response mention	T17	512	524	Two families	
+Spurious response mention	T18	528	549	transcription factors	
+Spurious response mention	T19	550	554	that	
+Spurious response mention	T20	528	567	transcription factors that are required	
+Spurious response mention	T22	771	774	ZEB	
+Spurious response mention	T23	1009	1012	why	
+Spurious response mention	T25	1091	1094	ZEB	
+-----------------------------------------------
+Missing gold mention	T20	597	610	c-Myb and Ets	
+Missing gold mention	T23	839	850	the factors	
+Missing gold mention	T22	798	811	c-Myb and Ets	
+Missing gold mention	T24	930	948	both c-Myb and Ets	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R4	Anaphor=T27	Antecedent1=T26	1 point(s)	
+----------- gold link	R8	Anaphor=T27	Antecedent1=T26	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R5	Anaphor=T21	Antecedent1=T20	1 point(s)	
+Missing gold link	R6	Anaphor=T23	Antecedent1=T22	1 point(s)	
+Missing gold link	R7	Anaphor=T25	Antecedent1=T24	1 point(s)	
+***********************************************
+PMID = PMID-8096091
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	302	312	NF-kappa B	
+Spurious response mention	T11	326	329	its	
+Spurious response mention	T12	356	359	its	
+-----------------------------------------------
+Missing gold mention	T14	905	926	917	926	inhibitor	this labile inhibitor	
+Missing gold mention	T13	760	797	782	797	I kappa B alpha	the newly synthesized I kappa B alpha	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T14	Antecedent1=T13	1 point(s)	
+***********************************************
+PMID = PMID-1675604
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T21	764	776	This protein	
+----------- gold mention	T23	764	776	This protein	
+Correct response mention	T16	112	127	The KBF1 factor	
+----------- gold mention	T17	112	127	121	127	factor	The KBF1 factor	
+Correct response mention	T17	129	134	which	
+----------- gold mention	T18	129	134	which	
+-----------------------------------------------
+Spurious response mention	T18	246	273	the p50 DNA binding subunit	
+Spurious response mention	T19	277	312	the transcription factor NF-kappa B	
+Spurious response mention	T20	314	319	which	
+Spurious response mention	T22	981	1013	the transcriptional inducibility	
+Spurious response mention	T23	1017	1045	the HIV long terminal repeat	
+Spurious response mention	T24	1047	1052	which	
+Spurious response mention	T25	1143	1145	it	
+Spurious response mention	T26	1423	1434	these genes	
+Spurious response mention	T27	1387	1417	the first formal demonstration	
+Spurious response mention	T28	1418	1422	that	
+-----------------------------------------------
+Missing gold mention	T22	647	678	649	655	mutant	A mutant of KBF1/p50 (delta SP)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T17	Antecedent1=T16	1 point(s)	
+----------- gold link	R1	Anaphor=T18	Antecedent1=T17	1 point(s)	
+-----------------------------------------------
+Spurious response link	R2	Anaphor=T20	Antecedent1=T16	1 point(s)	
+-----------------------------------------------
+Missing gold link	R4	Anaphor=T23	Antecedent1=T22	2 point(s)	
+***********************************************
+PMID = PMID-7575565
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T10	760	762	it	
+----------- gold mention	T12	760	762	it	
+-----------------------------------------------
+Spurious response mention	T9	682	686	them	
+Spurious response mention	T11	782	795	the formation	
+Spurious response mention	T12	799	821	multiprotein complexes	
+Spurious response mention	T13	822	826	that	
+-----------------------------------------------
+Missing gold mention	T11	713	718	HMG-I	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T12	Antecedent1=T11	1 point(s)	
+***********************************************
+PMID = PMID-9356494
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T20	400	404	LMP1	
+----------- gold mention	T20	400	404	LMP1	
+Correct response mention	T24	495	498	its	
+----------- gold mention	T23	495	498	its	
+-----------------------------------------------
+Spurious response mention	T18	387	394	a model	
+Spurious response mention	T19	395	399	that	
+Spurious response mention	T21	408	443	a constitutively activated receptor	
+Spurious response mention	T22	444	448	that	
+Spurious response mention	T23	408	467	a constitutively activated receptor that transduces signals	
+Spurious response mention	T25	867	874	a virus	
+Spurious response mention	T26	875	879	that	
+Spurious response mention	T27	1354	1370	the only protein	
+Spurious response mention	T28	1371	1375	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T23	Antecedent1=T20	1 point(s)	
+***********************************************
+PMID = PMID-1335418
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T11	382	403	the phorbol ester PMA	
+Spurious response mention	T12	405	436	phorbol 12-myristate 13-acetate	
+Spurious response mention	T13	438	443	which	
+Spurious response mention	T14	480	515	the adenosine receptor agonist NECA	
+Spurious response mention	T15	664	688	the transcription factor	
+Spurious response mention	T16	739	783	a concentration- and time-dependent increase	
+Spurious response mention	T17	838	852	cAMP elevation	
+Spurious response mention	T18	853	857	that	
+Spurious response mention	T19	897	912	the combination	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10395671
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T23	1449	1457	patients	
+----------- gold mention	T24	1449	1494	1449	1457	patients	patients with CD40 ligand+ hyper IgM syndrome	
+Correct response mention	T24	1498	1502	whom	
+----------- gold mention	T25	1498	1502	whom	
+-----------------------------------------------
+Spurious response mention	T22	967	1001	the Janus kinase 3 tyrosine kinase	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T25	Antecedent1=T24	1 point(s)	
+***********************************************
+PMID = PMID-8098881
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T4	1122	1143	transcription factors	
+Spurious response mention	T5	1144	1148	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8101106
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T11	622	647	this transcription factor	
+Spurious response mention	T12	1177	1192	an upregulation	
+Spurious response mention	T13	1196	1201	CD11b	
+Spurious response mention	T14	1202	1206	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9360945
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T15	296	301	which	
+----------- gold mention	T16	296	301	which	
+Correct response mention	T14	289	294	Oct-1	
+----------- gold mention	T15	289	294	Oct-1	
+-----------------------------------------------
+Spurious response mention	T12	212	217	those	
+Spurious response mention	T13	218	222	that	
+Spurious response mention	T16	513	532	the precise factors	
+Spurious response mention	T17	533	537	that	
+Spurious response mention	T18	546	570	this induction mechanism	
+Spurious response mention	T19	1244	1286	two distinct transcription factor families	
+Spurious response mention	T20	1287	1291	that	
+Spurious response mention	T21	1139	1150	The finding	
+Spurious response mention	T22	1151	1155	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T15	Antecedent1=T14	1 point(s)	
+----------- gold link	R3	Anaphor=T16	Antecedent1=T15	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9796963
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T30	381	385	that	
+----------- gold mention	T30	381	385	that	
+-----------------------------------------------
+Spurious response mention	T29	360	367	TCRzeta	
+Spurious response mention	T31	526	539	These defects	
+Spurious response mention	T32	933	944	65 patients	
+Spurious response mention	T33	971	975	whom	
+Spurious response mention	T34	1487	1500	the frequency	
+Spurious response mention	T35	2867	2870	who	
+Spurious response mention	T36	3055	3076	normal TCRzeta levels	
+Spurious response mention	T37	3314	3318	that	
+-----------------------------------------------
+Missing gold mention	T29	360	380	TCRzeta and p56(lck)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T30	Antecedent1=T29	1 point(s)	
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T30	Antecedent1=T29	2 point(s)	
+***********************************************
+PMID = PMID-7744623
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T8	154	169	T-cell receptor	
+Spurious response mention	T9	238	256	a long-lived state	
+Spurious response mention	T10	260	277	nonresponsiveness	
+Spurious response mention	T11	278	282	that	
+Spurious response mention	T12	751	756	their	
+Spurious response mention	T13	809	819	the nuclei	
+Spurious response mention	T14	823	830	T cells	
+Spurious response mention	T15	831	835	that	
+Spurious response mention	T16	980	991	the pattern	
+Spurious response mention	T17	992	996	that	
+Spurious response mention	T18	1218	1239	The inducible factors	
+Spurious response mention	T19	1467	1475	a member	
+Spurious response mention	T20	1492	1509	inducible factors	
+Spurious response mention	T21	1510	1514	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8649779
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T20	218	223	which	
+----------- gold mention	T20	218	223	which	
+Correct response mention	T24	1002	1006	that	
+----------- gold mention	T26	1002	1006	that	
+Correct response mention	T23	769	772	its	
+----------- gold mention	T23	769	772	its	
+-----------------------------------------------
+Spurious response mention	T19	179	216	the NF-kappaB1 p105 precursor protein	
+Spurious response mention	T21	769	789	its accumulated form	
+Spurious response mention	T22	790	794	that	
+-----------------------------------------------
+Missing gold mention	T19	145	216	165	175	processing	proteasome-mediated processing of the NF-kappaB1 p105 precursor protein	
+Missing gold mention	T21	685	719	712	719	protein	the newly synthesized p105 protein	
+Missing gold mention	T25	943	946	p50	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T20	Antecedent1=T19	2 point(s)	
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T20	Antecedent1=T19	2 point(s)	
+Missing gold link	R2	Anaphor=T23	Antecedent1=T21	1 point(s)	
+Missing gold link	R4	Anaphor=T26	Antecedent1=T25	1 point(s)	
+***********************************************
+PMID = PMID-7495759
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T7	72	74	It	
+Spurious response mention	T8	89	97	a puzzle	
+Spurious response mention	T9	98	102	that	
+Spurious response mention	T10	290	321	the MHC class II transactivator	
+Spurious response mention	T11	438	456	MHC class II genes	
+Spurious response mention	T12	623	641	MHC class II genes	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R2	Anaphor=T11	Antecedent1=T10	1 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-8098618
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T29	451	509	the inducible IL-2 receptor alpha chain (IL-2R alpha) gene	
+----------- gold mention	T29	451	509	the inducible IL-2 receptor alpha chain (IL-2R alpha) gene	
+Correct response mention	T30	510	514	that	
+----------- gold mention	T30	510	514	that	
+-----------------------------------------------
+Spurious response mention	T31	660	695	the transcription factor NF-kappa B	
+Spurious response mention	T32	753	773	the IL-2R alpha gene	
+Spurious response mention	T33	699	702	its	
+Spurious response mention	T34	1309	1314	Their	
+Spurious response mention	T35	1626	1653	an oxygen radical scavenger	
+Spurious response mention	T36	1654	1658	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T30	Antecedent1=T29	2 point(s)	
+----------- gold link	R1	Anaphor=T30	Antecedent1=T29	2 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7478534
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T18	275	332	Granulocyte-macrophage colony-stimulating factor (GM-CSF)	
+Spurious response mention	T19	336	353	one such cytokine	
+Spurious response mention	T20	354	359	whose	
+Spurious response mention	T21	515	534	the promoter region	
+Spurious response mention	T22	538	553	the GM-CSF gene	
+Spurious response mention	T23	555	560	which	
+Spurious response mention	T24	780	793	these factors	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T20	Antecedent1=T18	2 point(s)	
+Spurious response link	R3	Anaphor=T22	Antecedent1=T21	1 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-10089566
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T19	1179	1189	inhibitors	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8561779
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T8	136	173	the calcineurin catalytic (A) subunit	
+----------- gold mention	T8	92	173	140	151	calcineurin	An inhibitory, "dominant-negative," form of the calcineurin catalytic (A) subunit	
+Correct response mention	T9	188	193	which	
+----------- gold mention	T9	188	193	which	
+-----------------------------------------------
+Spurious response mention	T10	200	229	the calmodulin-binding domain	
+Spurious response mention	T11	257	261	most	
+Spurious response mention	T12	265	268	its	
+Spurious response mention	T13	535	563	the pivotal promoter element	
+Spurious response mention	T14	357	360	its	
+Spurious response mention	T15	755	778	an inhibitory mechanism	
+Spurious response mention	T16	779	783	that	
+Spurious response mention	T17	1001	1013	this subunit	
+Spurious response mention	T18	1069	1090	the potential utility	
+Spurious response mention	T19	1094	1100	agents	
+Spurious response mention	T20	1101	1105	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T9	Antecedent1=T8	1 point(s)	
+----------- gold link	R1	Anaphor=T9	Antecedent1=T8	1 point(s)	
+-----------------------------------------------
+Spurious response link	R2	Anaphor=T12	Antecedent1=T8	1 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-8388998
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T29	1474	1479	which	
+----------- gold mention	T29	1474	1479	which	
+-----------------------------------------------
+Spurious response mention	T28	1415	1427	transfection	
+Spurious response mention	T30	2263	2274	this regard	
+-----------------------------------------------
+Missing gold mention	T28	1431	1472	1465	1472	vectors	c-jun, jun-B, or jun-D expression vectors	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T29	Antecedent1=T28	3 point(s)	
+***********************************************
+PMID = PMID-9361029
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T9	66	98	The Wilms' tumor suppressor gene	
+Spurious response mention	T10	706	727	other imprinted genes	
+Spurious response mention	T11	706	742	other imprinted genes, IGF2 and H19,	
+Spurious response mention	T12	800	805	those	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8106512
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T16	0	41	Human interferon regulatory factor 2 gene	
+Spurious response mention	T17	116	154	Interferon regulatory factor 2 (IRF-2)	
+Spurious response mention	T18	158	194	a transcriptional regulatory protein	
+Spurious response mention	T19	195	199	that	
+Spurious response mention	T20	310	325	the genomic DNA	
+Spurious response mention	T21	330	346	human IRF-2 gene	
+Spurious response mention	T22	359	384	the intron-exon structure	
+Spurious response mention	T23	388	408	the human IRF-2 gene	
+Spurious response mention	T24	417	456	the major transcription initiation site	
+Spurious response mention	T25	552	566	the IRF-2 gene	
+Spurious response mention	T26	935	945	The region	
+Spurious response mention	T27	946	951	which	
+Spurious response mention	T28	1161	1169	elements	
+Spurious response mention	T29	1170	1175	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9372447
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T6	556	590	several other B cell-encoded genes	
+Spurious response mention	T7	591	595	that	
+Spurious response mention	T8	556	609	several other B cell-encoded genes that are expressed	
+Spurious response mention	T9	666	688	B cell-expressed genes	
+Spurious response mention	T10	689	693	that	
+Spurious response mention	T11	872	893	transcription factors	
+Spurious response mention	T12	894	898	that	
+Spurious response mention	T13	940	967	These transcription factors	
+Spurious response mention	T14	1025	1030	their	
+Spurious response mention	T15	1514	1522	kinetics	
+Spurious response mention	T16	1523	1527	that	
+Spurious response mention	T17	1555	1559	that	
+Spurious response mention	T18	1356	1379	the first demonstration	
+Spurious response mention	T19	1356	1384	the first demonstration that	
+Spurious response mention	T20	1380	1384	that	
+Spurious response mention	T21	1589	1616	the extinguishing mechanism	
+Spurious response mention	T22	1705	1723	a global mechanism	
+Spurious response mention	T23	1724	1728	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9488049
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T11	454	463	the level	
+----------- gold mention	T11	454	479	458	463	level	the level of IkappaBalpha	
+Correct response mention	T13	480	484	that	
+----------- gold mention	T12	480	484	that	
+-----------------------------------------------
+Spurious response mention	T12	467	479	IkappaBalpha	
+Spurious response mention	T14	811	823	the cytokine	
+Spurious response mention	T15	824	828	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T12	Antecedent1=T11	1 point(s)	
+***********************************************
+PMID = PMID-10229275
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T5	483	528	the HIV-1 long terminal repeat (LTR) promoter	
+Spurious response mention	T6	530	535	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10415609
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T5	196	201	their	
+Spurious response mention	T6	314	318	they	
+Spurious response mention	T7	1016	1020	that	
+Spurious response mention	T8	1087	1110	different GCH compounds	
+Spurious response mention	T9	1082	1086	that	
+Spurious response mention	T10	1127	1132	their	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8622636
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T19	1975	1980	which	
+----------- gold mention	T18	1975	1980	which	
+Correct response mention	T18	1958	1973	I kappa B-alpha	
+----------- gold mention	T17	1958	1973	I kappa B-alpha	
+Correct response mention	T16	744	749	whose	
+----------- gold mention	T16	744	749	whose	
+Correct response mention	T15	676	743	a secreted-type placental alkaline phosphatase (PLAP) reporter gene	
+----------- gold mention	T15	676	743	739	743	gene	a secreted-type placental alkaline phosphatase (PLAP) reporter gene	
+-----------------------------------------------
+Spurious response mention	T17	1121	1159	four putative NF-kappa B binding sites	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T19	Antecedent1=T18	1 point(s)	
+----------- gold link	R2	Anaphor=T18	Antecedent1=T17	1 point(s)	
+Correct response link	R1	Anaphor=T16	Antecedent1=T15	2 point(s)	
+----------- gold link	R1	Anaphor=T16	Antecedent1=T15	2 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9351352
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T7	922	944	this inhibitor protein	
+----------- gold mention	T6	922	944	this inhibitor protein	
+-----------------------------------------------
+Spurious response mention	T5	88	149	Nuclear factor-kappa B (NF-kappa B)/Rel transcription factors	
+Spurious response mention	T6	737	761	the proteasome inhibitor	
+Spurious response mention	T8	1227	1246	additional evidence	
+Spurious response mention	T9	1247	1251	that	
+-----------------------------------------------
+Missing gold mention	T5	850	865	I kappa B-alpha	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T6	Antecedent1=T5	1 point(s)	
+***********************************************
+PMID = PMID-7505113
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T17	289	326	An LT promoter (LT-293) CAT construct	
+Spurious response mention	T18	289	360	An LT promoter (LT-293) CAT construct that contained an NF-kappa B site	
+Spurious response mention	T19	327	331	that	
+Spurious response mention	T20	375	411	the LT-producing C81-66-45 cell line	
+Spurious response mention	T21	413	418	which	
+Spurious response mention	T22	485	515	a mutated LT-kappa B construct	
+Spurious response mention	T23	464	479	The observation	
+Spurious response mention	T24	480	484	that	
+Spurious response mention	T25	722	737	elevated levels	
+Spurious response mention	T26	741	751	NF-kappa B	
+Spurious response mention	T27	752	756	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T19	Antecedent1=T17	1 point(s)	
+Spurious response link	R2	Anaphor=T21	Antecedent1=T17	1 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-10092805
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T16	1272	1275	its	
+----------- gold mention	T13	1272	1275	its	
+-----------------------------------------------
+Spurious response mention	T10	1113	1122	treatment	
+Spurious response mention	T11	1126	1137	HL-60 cells	
+Spurious response mention	T12	1143	1156	retinoic acid	
+Spurious response mention	T13	1160	1164	DMSO	
+Spurious response mention	T14	1166	1171	which	
+Spurious response mention	T15	1217	1228	these cells	
+-----------------------------------------------
+Missing gold mention	T10	953	959	4E-BP1	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T13	Antecedent1=T10	1 point(s)	
+***********************************************
+PMID = PMID-9160887
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T12	868	888	the clonal expansion	
+----------- gold mention	T10	868	904	879	888	expansion	the clonal expansion of CD4+ T-cells	
+Correct response mention	T14	906	911	which	
+----------- gold mention	T11	906	911	which	
+-----------------------------------------------
+Spurious response mention	T10	412	426	cellular genes	
+Spurious response mention	T11	627	664	different trans-activating phenotypes	
+Spurious response mention	T13	892	904	CD4+ T-cells	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T11	Antecedent1=T10	1 point(s)	
+***********************************************
+PMID = PMID-8901569
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T20	409	429	the zinc finger gene	
+----------- gold mention	T21	409	429	the zinc finger gene	
+-----------------------------------------------
+Spurious response mention	T21	1186	1205	a competitive model	
+Spurious response mention	T22	1222	1227	which	
+Spurious response mention	T23	1228	1232	EKLF	
+Spurious response mention	T24	1286	1315	the beta-globin gene promoter	
+Spurious response mention	T25	1320	1344	the locus control region	
+Spurious response mention	T26	1345	1349	that	
+-----------------------------------------------
+Missing gold mention	T20	73	122	the adult beta-globin gene activator protein EKLF	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T21	Antecedent1=T20	1 point(s)	
+***********************************************
+PMID = PMID-8925904
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T11	296	299	its	
+----------- gold mention	T10	296	299	its	
+Correct response mention	T9	216	247	the androgen receptor (AR) gene	
+----------- gold mention	T9	216	247	the androgen receptor (AR) gene	
+-----------------------------------------------
+Spurious response mention	T10	257	278	cAMP response element	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T11	Antecedent1=T9	2 point(s)	
+----------- gold link	R1	Anaphor=T10	Antecedent1=T9	2 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9154298
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T25	0	37	Cytomegalovirus immediate early genes	
+Spurious response mention	T26	477	492	various stimuli	
+Spurious response mention	T27	493	497	that	
+Spurious response mention	T28	1325	1345	A deletion construct	
+Spurious response mention	T29	1346	1350	that	
+Spurious response mention	T30	1716	1744	the multiple response region	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9356353
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T13	473	480	the DSE	
+Spurious response mention	T14	528	532	they	
+Spurious response mention	T15	1314	1321	the DSE	
+Spurious response mention	T16	1318	1321	DSE	
+Spurious response mention	T17	1368	1392	the agonist combinations	
+Spurious response mention	T18	1802	1813	a mechanism	
+Spurious response mention	T19	1817	1822	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8898960
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	392	410	Class II molecules	
+Spurious response mention	T11	701	715	class II genes	
+Spurious response mention	T12	753	767	the AIR-1 gene	
+Spurious response mention	T13	769	774	whose	
+Spurious response mention	T14	962	970	the fact	
+Spurious response mention	T15	971	975	that	
+Spurious response mention	T16	1846	1860	These findings	
+Spurious response mention	T17	1906	1929	the distinct regulation	
+Spurious response mention	T18	1933	1943	expression	
+Spurious response mention	T19	1947	1979	the human HLA-DQ class II subset	
+Spurious response mention	T20	1981	1986	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10092783
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T11	585	612	these transcription factors	
+Spurious response mention	T12	915	936	primary human T cells	
+Spurious response mention	T13	937	941	that	
+Spurious response mention	T14	1175	1192	the growth factor	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8622883
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T26	268	294	the retinoblastoma protein	
+----------- gold mention	T23	268	294	the retinoblastoma protein	
+Correct response mention	T29	340	343	its	
+----------- gold mention	T24	340	343	its	
+Correct response mention	T33	1469	1491	retinoblastoma protein	
+----------- gold mention	T31	1469	1491	retinoblastoma protein	
+Correct response mention	T34	1526	1529	its	
+----------- gold mention	T32	1526	1529	its	
+-----------------------------------------------
+Spurious response mention	T21	94	124	the MTS1 tumor suppressor gene	
+Spurious response mention	T22	128	143	chromosome 9p21	
+Spurious response mention	T23	128	162	chromosome 9p21, which encodes p16	
+Spurious response mention	T24	145	150	which	
+Spurious response mention	T25	164	177	the inhibitor	
+Spurious response mention	T27	361	389	the transcription factor E2F	
+Spurious response mention	T28	391	396	which	
+Spurious response mention	T30	574	578	that	
+Spurious response mention	T31	1008	1019	this enzyme	
+Spurious response mention	T32	1226	1230	them	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R6	Anaphor=T34	Antecedent1=T33	1 point(s)	
+----------- gold link	R6	Anaphor=T32	Antecedent1=T31	1 point(s)	
+Correct response link	R4	Anaphor=T29	Antecedent1=T26	1 point(s)	
+----------- gold link	R2	Anaphor=T24	Antecedent1=T23	1 point(s)	
+-----------------------------------------------
+Spurious response link	R3	Anaphor=T25	Antecedent1=T23	1 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-7537762
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T19	749	771	an anti-P-selectin mAb	
+----------- gold mention	T20	749	771	an anti-P-selectin mAb	
+Correct response mention	T20	772	776	that	
+----------- gold mention	T21	772	776	that	
+Correct response mention	T22	1127	1137	P-selectin	
+----------- gold mention	T24	1127	1137	P-selectin	
+Correct response mention	T21	813	816	its	
+----------- gold mention	T23	813	816	its	
+Correct response mention	T23	1147	1150	its	
+----------- gold mention	T25	1147	1150	its	
+-----------------------------------------------
+Spurious response mention	T16	181	199	Adhesion molecules	
+Spurious response mention	T17	200	204	that	
+Spurious response mention	T18	632	636	they	
+-----------------------------------------------
+Missing gold mention	T22	786	796	P-selectin	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T20	Antecedent1=T19	1 point(s)	
+----------- gold link	R3	Anaphor=T21	Antecedent1=T20	1 point(s)	
+Correct response link	R4	Anaphor=T23	Antecedent1=T22	1 point(s)	
+----------- gold link	R5	Anaphor=T25	Antecedent1=T24	1 point(s)	
+-----------------------------------------------
+Spurious response link	R3	Anaphor=T21	Antecedent1=T19	1 point(s)	
+-----------------------------------------------
+Missing gold link	R4	Anaphor=T23	Antecedent1=T22	1 point(s)	
+***********************************************
+PMID = PMID-9171108
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T15	210	213	Its	
+----------- gold mention	T16	210	213	Its	
+Correct response mention	T19	948	953	their	
+----------- gold mention	T20	948	953	their	
+Correct response mention	T18	637	642	which	
+----------- gold mention	T18	637	642	which	
+Correct response mention	T17	618	633	a CIITA protein	
+----------- gold mention	T17	618	633	626	633	protein	a CIITA protein	
+-----------------------------------------------
+Spurious response mention	T16	519	548	these predicted alpha-helices	
+-----------------------------------------------
+Missing gold mention	T15	86	123	The class II trans- activator (CIITA)	
+Missing gold mention	T19	890	919	901	910	deletions	N-terminal deletions of CIITA	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T18	Antecedent1=T17	1 point(s)	
+----------- gold link	R2	Anaphor=T18	Antecedent1=T17	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T16	Antecedent1=T15	2 point(s)	
+Missing gold link	R3	Anaphor=T20	Antecedent1=T19	1 point(s)	
+***********************************************
+PMID = PMID-9808178
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T6	816	821	which	
+----------- gold mention	T7	816	821	which	
+Correct response mention	T5	788	815	a low basal IL-2 production	
+----------- gold mention	T6	788	815	805	815	production	a low basal IL-2 production	
+-----------------------------------------------
+Spurious response mention	T4	258	283	the IL-1 receptor complex	
+Spurious response mention	T7	1268	1287	the dose dependence	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R1	Anaphor=T6	Antecedent1=T5	1 point(s)	
+----------- gold link	R2	Anaphor=T7	Antecedent1=T6	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10455128
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T20	830	847	IKK-beta activity	
+----------- gold mention	T19	830	847	839	847	activity	IKK-beta activity	
+Correct response mention	T24	1453	1456	NIK	
+----------- gold mention	T23	1453	1456	NIK	
+Correct response mention	T21	849	854	which	
+----------- gold mention	T20	849	854	which	
+Correct response mention	T25	1506	1508	it	
+----------- gold mention	T24	1506	1508	it	
+-----------------------------------------------
+Spurious response mention	T19	145	171	The inflammatory mediators	
+Spurious response mention	T22	951	966	LPS stimulation	
+Spurious response mention	T23	968	973	which	
+Spurious response mention	T26	1824	1826	it	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R3	Anaphor=T25	Antecedent1=T24	1 point(s)	
+----------- gold link	R3	Anaphor=T24	Antecedent1=T23	1 point(s)	
+Correct response link	R1	Anaphor=T21	Antecedent1=T20	1 point(s)	
+----------- gold link	R1	Anaphor=T20	Antecedent1=T19	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9166418
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T14	248	254	a gene	
+----------- gold mention	T12	248	293	250	254	gene	a gene termed class II transactivator (CIITA)	
+Correct response mention	T15	295	300	which	
+----------- gold mention	T13	295	300	which	
+-----------------------------------------------
+Spurious response mention	T10	0	29	An isotype-specific activator	
+Spurious response mention	T11	33	86	major histocompatibility complex (MHC) class II genes	
+Spurious response mention	T12	87	91	that	
+Spurious response mention	T13	235	244	mutations	
+Spurious response mention	T16	468	476	clone 13	
+Spurious response mention	T17	554	557	its	
+Spurious response mention	T18	669	679	a mutation	
+Spurious response mention	T19	669	699	a mutation that allowed HLA-DQ	
+Spurious response mention	T20	680	684	that	
+Spurious response mention	T21	753	767	another factor	
+Spurious response mention	T22	1302	1348	an HLA-DQ isotype-specific trans-acting factor	
+Spurious response mention	T23	1350	1355	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T13	Antecedent1=T12	2 point(s)	
+***********************************************
+PMID = PMID-8617979
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T18	330	346	these infections	
+Spurious response mention	T19	367	381	the production	
+Spurious response mention	T20	385	410	proinflammatory cytokines	
+Spurious response mention	T21	412	417	which	
+Spurious response mention	T22	725	739	minimal levels	
+Spurious response mention	T23	759	764	which	
+Spurious response mention	T24	999	1044	HIV long terminal repeat-driven transcription	
+Spurious response mention	T25	1046	1051	which	
+Spurious response mention	T26	1753	1804	an endogenously produced viral inducer (IL-1 beta )	
+Spurious response mention	T27	1809	1821	an inhibitor	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-1751404
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T3	675	690	these complexes	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10229231
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T18	723	726	its	
+----------- gold mention	T17	723	726	its	
+-----------------------------------------------
+Spurious response mention	T14	380	402	a truncated transcript	
+Spurious response mention	T15	403	407	that	
+Spurious response mention	T16	744	755	a mechanism	
+Spurious response mention	T17	759	764	which	
+Spurious response mention	T19	816	840	the molecular mechanisms	
+-----------------------------------------------
+Missing gold mention	T16	654	674	663	674	interaction	Fas/FasL interaction	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T17	Antecedent1=T16	2 point(s)	
+***********************************************
+PMID = PMID-8626752
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T21	367	376	the STATs	
+Spurious response mention	T22	386	391	their	
+Spurious response mention	T23	938	953	heterocomplexes	
+Spurious response mention	T24	1168	1190	Newly translated STAT1	
+Spurious response mention	T25	1335	1342	a model	
+Spurious response mention	T26	1346	1351	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7759875
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T15	885	889	that	
+----------- gold mention	T18	885	889	that	
+Correct response mention	T12	507	511	They	
+----------- gold mention	T14	507	511	They	
+-----------------------------------------------
+Spurious response mention	T13	666	686	downstream signaling	
+Spurious response mention	T14	687	691	that	
+Spurious response mention	T16	1318	1346	the activating NF-AT complex	
+Spurious response mention	T17	1359	1364	those	
+Spurious response mention	T18	1476	1487	high levels	
+Spurious response mention	T19	1491	1524	a novel specific binding activity	
+Spurious response mention	T20	1544	1549	which	
+Spurious response mention	T21	1803	1826	These two abnormalities	
+-----------------------------------------------
+Missing gold mention	T13	362	378	373	378	cells	these same cells	
+Missing gold mention	T12	191	245	240	245	cells	MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells	
+Missing gold mention	T17	772	825	787	792	state	the activation state of the IL-2 gene promoter region	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T13	Antecedent1=T12	1 point(s)	
+Missing gold link	R2	Anaphor=T14	Antecedent1=T12	1 point(s)	
+Missing gold link	R4	Anaphor=T18	Antecedent1=T17	1 point(s)	
+***********************************************
+PMID = PMID-1680914
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T15	878	881	its	
+----------- gold mention	T15	878	881	its	
+-----------------------------------------------
+Spurious response mention	T10	196	209	two processes	
+Spurious response mention	T11	210	214	that	
+Spurious response mention	T12	196	227	two processes that are involved	
+Spurious response mention	T13	432	446	the mechanisms	
+Spurious response mention	T14	447	454	whereby	
+-----------------------------------------------
+Missing gold mention	T14	869	872	CD2	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T15	Antecedent1=T14	1 point(s)	
+***********************************************
+PMID = PMID-9352360
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T5	156	161	a bi-	
+Spurious response mention	T6	197	202	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8887687
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T15	809	814	their	
+----------- gold mention	T18	809	814	their	
+Correct response mention	T13	629	632	its	
+----------- gold mention	T15	629	632	its	
+-----------------------------------------------
+Spurious response mention	T12	120	155	immediate-early (IE) response genes	
+Spurious response mention	T14	705	717	the IE genes	
+-----------------------------------------------
+Missing gold mention	T14	534	542	p21(ras)	
+Missing gold mention	T16	687	717	691	701	inductions	the inductions of the IE genes	
+Missing gold mention	T12	103	188	107	116	induction	The induction of immediate-early (IE) response genes, such as egr-1, c-fos, and c-jun	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T15	Antecedent1=T14	1 point(s)	
+Missing gold link	R2	Anaphor=T16	Antecedent1=T12	3 point(s)	
+Missing gold link	R4	Anaphor=T18	Antecedent1=T12	3 point(s)	
+***********************************************
+PMID = PMID-1740663
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T7	1125	1139	These proteins	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7749985
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T14	890	893	its	
+----------- gold mention	T12	890	893	its	
+-----------------------------------------------
+Spurious response mention	T9	153	220	Type II major histocompatibility complex combined immune deficiency	
+Spurious response mention	T10	426	444	the defective gene	
+Spurious response mention	T11	652	680	the N-terminal acidic domain	
+Spurious response mention	T12	703	708	which	
+Spurious response mention	T13	828	858	three major MHC class II genes	
+Spurious response mention	T15	1188	1198	initiation	
+-----------------------------------------------
+Missing gold mention	T11	818	823	CIITA	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T12	Antecedent1=T11	1 point(s)	
+***********************************************
+PMID = PMID-9880555
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	232	267	elk-1-specific genomic phage clones	
+----------- gold mention	T16	232	267	261	267	clones	elk-1-specific genomic phage clones	
+Correct response mention	T18	268	272	that	
+----------- gold mention	T17	268	272	that	
+-----------------------------------------------
+Spurious response mention	T16	188	218	the transcriptional start site	
+Spurious response mention	T19	465	481	the TATA element	
+Spurious response mention	T20	858	877	pre-monocytic cells	
+Spurious response mention	T21	879	884	which	
+Spurious response mention	T22	955	971	other cell types	
+Spurious response mention	T23	973	978	which	
+Spurious response mention	T24	1020	1024	HS 2	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T17	Antecedent1=T16	1 point(s)	
+***********************************************
+PMID = PMID-9802971
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T2	150	163	The mechanism	
+Spurious response mention	T3	167	172	which	
+Spurious response mention	T4	664	676	Progesterone	
+Spurious response mention	T5	773	775	it	
+Spurious response mention	T6	849	873	oscillatory Ca2+ signals	
+Spurious response mention	T7	883	901	the Ca2+ transient	
+Spurious response mention	T8	974	996	other steroid hormones	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9747720
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T24	1274	1276	it	
+----------- gold mention	T22	1274	1276	it	
+Correct response mention	T23	1236	1240	LMP1	
+----------- gold mention	T21	1236	1240	LMP1	
+-----------------------------------------------
+Spurious response mention	T19	450	461	two domains	
+Spurious response mention	T20	462	466	that	
+Spurious response mention	T21	512	515	one	
+Spurious response mention	T22	575	592	the TRADD protein	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R4	Anaphor=T24	Antecedent1=T23	1 point(s)	
+----------- gold link	R2	Anaphor=T22	Antecedent1=T21	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9159166
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T40	1723	1727	that	
+----------- gold mention	T38	1723	1727	that	
+Correct response mention	T37	1480	1485	which	
+----------- gold mention	T36	1480	1485	which	
+Correct response mention	T31	803	823	the IL-4Ralpha chain	
+----------- gold mention	T31	803	823	818	823	chain	the IL-4Ralpha chain	
+Correct response mention	T38	1686	1722	Jak1-dependent intracellular signals	
+----------- gold mention	T37	1686	1722	1715	1722	signals	Jak1-dependent intracellular signals	
+Correct response mention	T34	918	921	its	
+----------- gold mention	T34	918	921	its	
+Correct response mention	T25	387	420	the IL-4-binding IL-4Ralpha chain	
+----------- gold mention	T25	387	420	415	420	chain	the IL-4-binding IL-4Ralpha chain	
+Correct response mention	T36	1439	1478	a chimeric CD8alpha/IL-4Ralpha receptor	
+----------- gold mention	T35	1439	1478	1470	1478	receptor	a chimeric CD8alpha/IL-4Ralpha receptor	
+Correct response mention	T28	490	495	which	
+----------- gold mention	T28	490	495	which	
+Correct response mention	T26	422	427	which	
+----------- gold mention	T26	422	427	which	
+Correct response mention	T27	459	488	the IL-2Rgamma (gammac) chain	
+----------- gold mention	T27	459	488	483	488	chain	the IL-2Rgamma (gammac) chain	
+-----------------------------------------------
+Spurious response mention	T29	715	722	B cells	
+Spurious response mention	T30	723	727	that	
+Spurious response mention	T32	838	859	intracellular signals	
+Spurious response mention	T33	860	864	that	
+Spurious response mention	T35	1377	1399	this chimeric receptor	
+Spurious response mention	T39	1686	1757	Jak1-dependent intracellular signals that lead to IgE isotype switching	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R7	Anaphor=T40	Antecedent1=T38	1 point(s)	
+----------- gold link	R7	Anaphor=T38	Antecedent1=T37	1 point(s)	
+Correct response link	R3	Anaphor=T34	Antecedent1=T31	1 point(s)	
+----------- gold link	R5	Anaphor=T34	Antecedent1=T31	1 point(s)	
+Correct response link	R6	Anaphor=T37	Antecedent1=T36	1 point(s)	
+----------- gold link	R6	Anaphor=T36	Antecedent1=T35	1 point(s)	
+Correct response link	R1	Anaphor=T28	Antecedent1=T27	1 point(s)	
+----------- gold link	R2	Anaphor=T28	Antecedent1=T27	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T26	Antecedent1=T25	2 point(s)	
+***********************************************
+PMID = PMID-8621390
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T8	856	900	the nuclear factor of activated T cell sites	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9989503
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T20	860	862	it	
+----------- gold mention	T23	860	862	it	
+-----------------------------------------------
+Spurious response mention	T19	364	384	two cytokine systems	
+-----------------------------------------------
+Missing gold mention	T22	789	792	Nmi	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T23	Antecedent1=T22	1 point(s)	
+***********************************************
+PMID = PMID-10415075
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T8	1177	1204	NF-kappa B binding activity	
+Spurious response mention	T9	1219	1239	several SLE patients	
+Spurious response mention	T10	1240	1243	who	
+Spurious response mention	T11	1448	1460	SLE patients	
+Spurious response mention	T12	1461	1464	who	
+Spurious response mention	T13	1639	1652	p65 complexes	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10092775
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T17	140	161	Intracellular signals	
+Spurious response mention	T18	162	166	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9878621
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T15	882	887	which	
+----------- gold mention	T16	882	887	which	
+Correct response mention	T14	859	880	the IL-1beta promoter	
+----------- gold mention	T15	859	880	872	880	promoter	the IL-1beta promoter	
+-----------------------------------------------
+Spurious response mention	T12	109	114	their	
+Spurious response mention	T13	840	855	the -300 region	
+Spurious response mention	T16	1096	1110	these proteins	
+Spurious response mention	T17	1120	1123	RBP	
+Spurious response mention	T18	1129	1132	its	
+Spurious response mention	T19	1521	1531	activation	
+Spurious response mention	T20	1545	1549	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T16	Antecedent1=T15	1 point(s)	
+***********************************************
+PMID = PMID-10411007
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	630	639	Mutations	
+Spurious response mention	T11	643	652	this site	
+Spurious response mention	T12	653	657	that	
+Spurious response mention	T13	755	785	The major transcription factor	
+Spurious response mention	T14	786	790	that	
+-----------------------------------------------
+Missing gold mention	T11	394	408	this construct	
+Missing gold mention	T10	184	266	195	204	construct	A reporter construct containing the 5'-flanking region of the mouse TNF-alpha gene	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T11	Antecedent1=T10	1 point(s)	
+***********************************************
+PMID = PMID-8895544
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	561	563	it	
+----------- gold mention	T17	561	563	it	
+Correct response mention	T16	486	511	Transcriptional induction	
+----------- gold mention	T16	486	547	502	511	induction	Transcriptional induction of the RAR(alpha) and PML-RAR mRNAs	
+-----------------------------------------------
+Spurious response mention	T18	597	623	the corresponding proteins	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T17	Antecedent1=T16	2 point(s)	
+***********************************************
+PMID = PMID-9619918
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	173	176	its	
+----------- gold mention	T18	173	176	its	
+-----------------------------------------------
+-----------------------------------------------
+Missing gold mention	T17	149	169	interleukin-2 (IL-2)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T18	Antecedent1=T17	2 point(s)	
+***********************************************
+PMID = PMID-8903467
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	133	158	Nasal T/NK-cell lymphomas	
+Spurious response mention	T11	189	194	those	
+Spurious response mention	T12	891	904	both subtypes	
+Spurious response mention	T13	1636	1640	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7605990
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T22	682	687	their	
+----------- gold mention	T23	682	687	their	
+-----------------------------------------------
+Spurious response mention	T20	149	224	The granulocyte-macrophage colony-stimulating factor (GM-CSF) gene promoter	
+Spurious response mention	T21	333	338	which	
+Spurious response mention	T23	1094	1131	Coexpression of alpha B1 and alpha B2	
+Spurious response mention	T24	1110	1131	alpha B1 and alpha B2	
+Spurious response mention	T25	1248	1277	PEBP2 site-binding protein(s)	
+Spurious response mention	T26	1278	1282	that	
+-----------------------------------------------
+Missing gold mention	T22	587	621	alpha A1 (an alpha A-gene product)	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T21	Antecedent1=T20	2 point(s)	
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T23	Antecedent1=T22	1 point(s)	
+***********************************************
+PMID = PMID-10096561
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T45	1228	1231	its	
+----------- gold mention	T37	1228	1231	its	
+-----------------------------------------------
+Spurious response mention	T31	70	75	their	
+Spurious response mention	T32	775	807	CD40L-transfected murine L-cells	
+Spurious response mention	T33	814	844	a soluble CD40L fusion protein	
+Spurious response mention	T34	858	874	their expression	
+Spurious response mention	T35	858	950	their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules	
+Spurious response mention	T36	878	950	intercellular adhesion molecule-1 and MHC class I and class II molecules	
+Spurious response mention	T37	916	950	MHC class I and class II molecules	
+Spurious response mention	T38	955	970	their secretion	
+Spurious response mention	T39	1081	1099	a rapid activation	
+Spurious response mention	T40	1081	1149	a rapid activation of the transcription factor nuclear factor kappaB	
+Spurious response mention	T41	1103	1149	the transcription factor nuclear factor kappaB	
+Spurious response mention	T42	858	970	their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion	
+Spurious response mention	T43	858	863	their	
+Spurious response mention	T44	955	960	their	
+-----------------------------------------------
+Missing gold mention	T36	1164	1218	1169	1177	ligation	CD40 ligation of a HLA-A2+, MelanA/MART1+ MM cell line	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R4	Anaphor=T37	Antecedent1=T36	4 point(s)	
+***********************************************
+PMID = PMID-9299399
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T7	280	283	Its	
+----------- gold mention	T8	280	283	Its	
+-----------------------------------------------
+Spurious response mention	T8	475	507	the immediate 5' upstream region	
+-----------------------------------------------
+Missing gold mention	T7	91	98	Eotaxin	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T8	Antecedent1=T7	1 point(s)	
+***********************************************
+PMID = PMID-8112299
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T9	661	666	IL-2A	
+Spurious response mention	T10	668	673	which	
+Spurious response mention	T11	711	716	IL-2E	
+Spurious response mention	T12	718	723	which	
+Spurious response mention	T13	868	890	the NF-kappa B element	
+Spurious response mention	T14	1089	1093	that	
+Spurious response mention	T15	1272	1276	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7769834
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8896456
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T30	946	958	this element	
+----------- gold mention	T32	946	958	this element	
+Correct response mention	T27	617	629	this element	
+----------- gold mention	T29	617	629	this element	
+Correct response mention	T22	353	357	that	
+----------- gold mention	T23	353	357	that	
+Correct response mention	T20	256	259	its	
+----------- gold mention	T21	256	259	its	
+Correct response mention	T21	309	352	an essential upstream IL-2 response element	
+----------- gold mention	T22	309	352	345	352	element	an essential upstream IL-2 response element	
+-----------------------------------------------
+Spurious response mention	T18	76	95	a composite element	
+Spurious response mention	T19	96	100	that	
+Spurious response mention	T23	412	442	two putative Ets binding sites	
+Spurious response mention	T24	457	462	which	
+Spurious response mention	T25	501	513	a GATA motif	
+Spurious response mention	T26	515	520	which	
+Spurious response mention	T28	663	667	they	
+Spurious response mention	T29	673	692	a composite element	
+Spurious response mention	T31	1173	1199	a complex upstream element	
+Spurious response mention	T32	1201	1206	which	
+-----------------------------------------------
+Missing gold mention	T20	172	228	224	228	gene	the human interleukin-2 (IL-2) receptor alpha chain gene	
+Missing gold mention	T31	846	871	864	871	element	the IL-2 response element	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T22	Antecedent1=T21	1 point(s)	
+----------- gold link	R3	Anaphor=T23	Antecedent1=T22	1 point(s)	
+-----------------------------------------------
+Spurious response link	R3	Anaphor=T24	Antecedent1=T21	1 point(s)	
+Spurious response link	R4	Anaphor=T26	Antecedent1=T21	1 point(s)	
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T21	Antecedent1=T20	1 point(s)	
+Missing gold link	R6	Anaphor=T29	Antecedent1=T22	1 point(s)	
+Missing gold link	R8	Anaphor=T32	Antecedent1=T31	1 point(s)	
+***********************************************
+PMID = PMID-7760810
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T20	264	269	their	
+Spurious response mention	T21	282	292	This delay	
+Spurious response mention	T22	594	614	potential mechanisms	
+Spurious response mention	T23	618	623	which	
+Spurious response mention	T24	701	734	an erythroid transcription factor	
+Spurious response mention	T25	735	739	that	
+Spurious response mention	T26	790	819	erythroid cell-specific genes	
+Spurious response mention	T27	701	752	an erythroid transcription factor that participates	
+Spurious response mention	T28	676	681	their	
+Spurious response mention	T29	894	922	the transcriptional activity	
+Spurious response mention	T30	894	932	the transcriptional activity of GATA-1	
+Spurious response mention	T31	1235	1253	an intact promoter	
+Spurious response mention	T32	1254	1259	which	
+Spurious response mention	T33	1535	1556	at least two contacts	
+Spurious response mention	T34	1558	1563	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8389757
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T11	840	852	an inhibitor	
+Spurious response mention	T12	1050	1054	that	
+Spurious response mention	T13	1116	1120	that	
+Spurious response mention	T14	1693	1724	this subcellular redistribution	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-10411003
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T24	1170	1173	its	
+----------- gold mention	T20	1170	1173	its	
+Correct response mention	T23	1114	1117	its	
+----------- gold mention	T19	1114	1117	its	
+-----------------------------------------------
+Spurious response mention	T18	711	713	It	
+Spurious response mention	T19	734	739	IL-11	
+Spurious response mention	T20	1035	1056	a regulatory cytokine	
+Spurious response mention	T21	1101	1112	this family	
+Spurious response mention	T22	1236	1245	TNF-alpha	
+-----------------------------------------------
+Missing gold mention	T18	1026	1031	IL-11	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T19	Antecedent1=T18	1 point(s)	
+Missing gold link	R2	Anaphor=T20	Antecedent1=T18	1 point(s)	
+***********************************************
+PMID = PMID-10395652
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T18	28	77	lipopolysaccharide-activated toll-like receptor 2	
+Spurious response mention	T19	80	113	Human Toll-like receptor 2 (TLR2)	
+Spurious response mention	T20	117	137	a signaling receptor	
+Spurious response mention	T21	138	142	that	
+Spurious response mention	T22	558	589	Intracellular deletion variants	
+Spurious response mention	T23	646	650	IRAK	
+Spurious response mention	T24	652	657	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-8690900
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T17	1747	1760	this cytokine	
+----------- gold mention	T17	1747	1760	this cytokine	
+-----------------------------------------------
+Spurious response mention	T16	342	346	that	
+Spurious response mention	T18	1802	1829	these transcription factors	
+-----------------------------------------------
+Missing gold mention	T16	1470	1475	IL-10	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T17	Antecedent1=T16	1 point(s)	
+***********************************************
+PMID = PMID-8626528
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T24	1488	1493	which	
+----------- gold mention	T24	1488	1493	which	
+Correct response mention	T17	464	468	that	
+----------- gold mention	T16	464	468	that	
+-----------------------------------------------
+Spurious response mention	T13	22	30	a factor	
+Spurious response mention	T14	31	35	that	
+Spurious response mention	T15	408	426	a functional motif	
+Spurious response mention	T16	433	463	CD28 response element (CD28RE)	
+Spurious response mention	T18	652	672	an inducible protein	
+Spurious response mention	T19	784	788	that	
+Spurious response mention	T20	950	957	T cells	
+Spurious response mention	T21	958	962	that	
+Spurious response mention	T22	1275	1278	its	
+Spurious response mention	T23	1471	1486	IL-2 production	
+-----------------------------------------------
+Missing gold mention	T15	408	463	a functional motif named CD28 response element (CD28RE)	
+Missing gold mention	T23	1444	1486	1454	1465	correlation	excellent correlation with IL-2 production	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R2	Anaphor=T16	Antecedent1=T15	1 point(s)	
+Spurious response link	R7	Anaphor=T24	Antecedent1=T23	1 point(s)	
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T16	Antecedent1=T15	1 point(s)	
+Missing gold link	R6	Anaphor=T24	Antecedent1=T23	1 point(s)	
+***********************************************
+PMID = PMID-8524232
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T23	39	43	that	
+----------- gold mention	T24	39	43	that	
+Correct response mention	T43	1049	1054	their	
+----------- gold mention	T37	1049	1054	their	
+Correct response mention	T27	476	479	its	
+----------- gold mention	T28	476	479	its	
+Correct response mention	T45	1147	1157	the factor	
+----------- gold mention	T39	1147	1157	the factor	
+Correct response mention	T22	30	38	a factor	
+----------- gold mention	T23	30	38	a factor	
+-----------------------------------------------
+Spurious response mention	T24	301	329	a chicken erythrocyte factor	
+Spurious response mention	T25	301	369	a chicken erythrocyte factor (apparent molecular mass, 70 to 73 kDa)	
+Spurious response mention	T26	370	374	that	
+Spurious response mention	T28	531	563	transformed erythroid precursors	
+Spurious response mention	T29	577	662	IBR but a factor referred to as IBF (68 to 70 kDa) that recognizes the same IBR sites	
+Spurious response mention	T30	585	593	a factor	
+Spurious response mention	T31	585	662	a factor referred to as IBF (68 to 70 kDa) that recognizes the same IBR sites	
+Spurious response mention	T32	609	612	IBF	
+Spurious response mention	T33	609	627	IBF (68 to 70 kDa)	
+Spurious response mention	T34	609	662	IBF (68 to 70 kDa) that recognizes the same IBR sites	
+Spurious response mention	T35	628	632	that	
+Spurious response mention	T36	679	691	the IBR cDNA	
+Spurious response mention	T37	737	740	IBR	
+Spurious response mention	T38	744	780	a 503-amino-acid-long acidic protein	
+Spurious response mention	T39	781	786	which	
+Spurious response mention	T40	1016	1034	identical proteins	
+Spurious response mention	T41	974	982	evidence	
+Spurious response mention	T42	983	987	that	
+Spurious response mention	T44	1097	1122	several molecular aspects	
+Spurious response mention	T46	1308	1343	the DNA-binding/dimerization domain	
+Spurious response mention	T47	1345	1357	outer limits	
+Spurious response mention	T48	1411	1419	37 to 67	
+Spurious response mention	T49	1426	1465	a bipartite nuclear localization signal	
+Spurious response mention	T50	1426	1477	a bipartite nuclear localization signal (89 to 106)	
+Spurious response mention	T51	1478	1483	which	
+Spurious response mention	T52	1766	1777	this family	
+-----------------------------------------------
+Missing gold mention	T22	0	28	Initiation binding repressor	
+Missing gold mention	T27	444	463	459	463	gene	the histone h5 gene	
+Missing gold mention	T36	988	999	IBR and IBF	
+Missing gold mention	T38	1126	1131	IBR/F	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R5	Anaphor=T35	Antecedent1=T29	3 point(s)	
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T23	Antecedent1=T22	1 point(s)	
+Missing gold link	R2	Anaphor=T24	Antecedent1=T22	1 point(s)	
+Missing gold link	R4	Anaphor=T28	Antecedent1=T27	1 point(s)	
+Missing gold link	R8	Anaphor=T37	Antecedent1=T36	2 point(s)	
+Missing gold link	R9	Anaphor=T39	Antecedent1=T38	2 point(s)	
+***********************************************
+PMID = PMID-10402173
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T8	464	478	normal T cells	
+Spurious response mention	T9	479	483	that	
+Spurious response mention	T10	608	612	that	
+Spurious response mention	T11	948	953	RCC-S	
+Spurious response mention	T12	968	990	the cytoplasmic levels	
+Spurious response mention	T13	1031	1036	their	
+Spurious response mention	T14	1184	1202	the same phenotype	
+Spurious response mention	T15	1206	1235	impaired NF-kappaB activation	
+Spurious response mention	T16	1236	1240	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7478994
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T12	385	388	its	
+----------- gold mention	T10	385	388	its	
+Correct response mention	T9	330	345	the 15-lox gene	
+----------- gold mention	T7	330	345	341	345	gene	the 15-lox gene	
+-----------------------------------------------
+Spurious response mention	T6	113	143	The 15-lipoxygenase (lox) gene	
+Spurious response mention	T7	290	301	this report	
+Spurious response mention	T8	307	326	the 5' flanking DNA	
+Spurious response mention	T10	355	364	sequences	
+Spurious response mention	T11	365	370	which	
+Spurious response mention	T13	476	487	The element	
+Spurious response mention	T14	546	548	it	
+Spurious response mention	T15	634	650	the first 900 bp	
+Spurious response mention	T16	654	669	5' flanking DNA	
+Spurious response mention	T17	671	676	which	
+Spurious response mention	T18	709	725	a nuclear factor	
+Spurious response mention	T19	1029	1044	the GATA family	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T10	Antecedent1=T7	1 point(s)	
+***********************************************
+PMID = PMID-7760807
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T24	552	554	It	
+----------- gold mention	T18	552	554	It	
+Correct response mention	T19	162	222	Murine macrophage inflammatory protein 1 alpha (MIP-1 alpha)	
+----------- gold mention	T15	162	222	193	200	protein	Murine macrophage inflammatory protein 1 alpha (MIP-1 alpha)	
+Correct response mention	T23	227	230	its	
+----------- gold mention	T16	227	230	its	
+Correct response mention	T18	162	208	Murine macrophage inflammatory protein 1 alpha	
+----------- gold mention	T15	162	222	193	200	protein	Murine macrophage inflammatory protein 1 alpha (MIP-1 alpha)	
+-----------------------------------------------
+Spurious response mention	T13	0	26	MIP1 alpha nuclear protein	
+Spurious response mention	T14	0	32	MIP1 alpha nuclear protein (MNP)	
+Spurious response mention	T15	0	62	MIP1 alpha nuclear protein (MNP), a novel transcription factor	
+Spurious response mention	T16	76	95	hematopoietic cells	
+Spurious response mention	T17	96	100	that	
+Spurious response mention	T20	210	221	MIP-1 alpha	
+Spurious response mention	T21	276	283	members	
+Spurious response mention	T22	287	302	the -C-C family	
+Spurious response mention	T25	639	641	it	
+Spurious response mention	T26	669	683	the mechanisms	
+Spurious response mention	T27	684	689	which	
+Spurious response mention	T28	1061	1065	that	
+Spurious response mention	T29	971	979	evidence	
+Spurious response mention	T30	980	984	that	
+Spurious response mention	T31	1194	1202	evidence	
+Spurious response mention	T32	1207	1233	an additional binding site	
+Spurious response mention	T33	1235	1277	the MIP-1 alpha nuclear protein (MNP) site	
+Spurious response mention	T34	1279	1284	which	
+Spurious response mention	T35	1512	1522	A mutation	
+Spurious response mention	T36	1526	1538	the MNP site	
+Spurious response mention	T37	1539	1544	which	
+Spurious response mention	T38	1636	1639	its	
+Spurious response mention	T39	1749	1777	a novel transcription factor	
+-----------------------------------------------
+Missing gold mention	T17	388	425	408	425	MIP-1 alpha/GOS19	bone marrow-derived MIP-1 alpha/GOS19	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T16	Antecedent1=T15	2 point(s)	
+Missing gold link	R3	Anaphor=T18	Antecedent1=T17	2 point(s)	
+***********************************************
+PMID = PMID-7506531
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T12	1185	1188	its	
+----------- gold mention	T13	1185	1188	its	
+-----------------------------------------------
+Spurious response mention	T13	1581	1606	this transcription factor	
+-----------------------------------------------
+Missing gold mention	T12	1150	1164	the c-fos gene	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T13	Antecedent1=T12	1 point(s)	
+***********************************************
+PMID = PMID-7759956
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T22	1570	1585	GM-CSF and IL-2	
+Spurious response mention	T23	1570	1604	GM-CSF and IL-2 gene transcription	
+Spurious response mention	T24	1609	1613	that	
+Spurious response mention	T25	1614	1616	it	
+Spurious response mention	T26	1570	1605	GM-CSF and IL-2 gene transcription,	
+Spurious response mention	T27	1921	1926	these	
+Spurious response mention	T28	2113	2121	the fact	
+Spurious response mention	T29	2122	2126	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+Spurious response link	R1	Anaphor=T24	Antecedent1=T23	2 point(s)	
+Spurious response link	R3	Anaphor=T25	Antecedent1=T26	2 point(s)	
+-----------------------------------------------
+***********************************************
+PMID = PMID-9149909
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T20	654	656	it	
+----------- gold mention	T19	654	656	it	
+Correct response mention	T21	1194	1196	it	
+----------- gold mention	T21	1194	1196	it	
+-----------------------------------------------
+Spurious response mention	T14	275	286	the release	
+Spurious response mention	T15	333	386	the non-Hodgkin's lymphoma cells Ri-I, Ci-I, and Sc-I	
+Spurious response mention	T16	366	386	Ri-I, Ci-I, and Sc-I	
+Spurious response mention	T17	382	386	Sc-I	
+Spurious response mention	T18	388	393	which	
+Spurious response mention	T19	509	511	it	
+Spurious response mention	T22	1298	1309	the ability	
+Spurious response mention	T23	1686	1711	(d) intracellular signals	
+Spurious response mention	T24	1769	1774	those	
+Spurious response mention	T25	1389	1394	their	
+-----------------------------------------------
+Missing gold mention	T18	591	608	601	608	release	TNF-alpha release	
+Missing gold mention	T20	1064	1082	1073	1082	TNF-alpha	released TNF-alpha	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T19	Antecedent1=T18	1 point(s)	
+Missing gold link	R4	Anaphor=T21	Antecedent1=T20	1 point(s)	
+***********************************************
+PMID = PMID-9372912
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T35	1764	1767	its	
+----------- gold mention	T32	1764	1767	its	
+-----------------------------------------------
+Spurious response mention	T19	304	326	These bHLH antagonists	
+Spurious response mention	T20	346	377	a mitogenic signalling response	
+Spurious response mention	T21	383	387	they	
+Spurious response mention	T22	413	431	their bHLH targets	
+Spurious response mention	T23	435	456	inactive heterodimers	
+Spurious response mention	T24	457	461	that	
+Spurious response mention	T25	413	418	their	
+Spurious response mention	T26	538	552	cyclin E-Cdk2-	
+Spurious response mention	T27	1380	1391	an activity	
+Spurious response mention	T28	1419	1423	that	
+Spurious response mention	T29	1500	1508	a switch	
+Spurious response mention	T30	1516	1534	late G1-to-S phase	
+Spurious response mention	T31	1535	1539	that	
+Spurious response mention	T32	1619	1622	its	
+Spurious response mention	T33	1845	1879	a biologically important mechanism	
+Spurious response mention	T34	1888	1893	which	
+-----------------------------------------------
+Missing gold mention	T25	732	736	this	
+Missing gold mention	T24	538	647	581	596	phosphorylation	cyclin E-Cdk2- and cyclin A-Cdk2-dependent phosphorylation of a single conserved serine residue (Ser5) in Id2	
+Missing gold mention	T31	1696	1699	Id3	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R4	Anaphor=T25	Antecedent1=T24	5 point(s)	
+Missing gold link	R8	Anaphor=T32	Antecedent1=T31	1 point(s)	
+***********************************************
+PMID = PMID-1763325
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T18	579	584	which	
+----------- gold mention	T17	579	584	which	
+Correct response mention	T19	710	713	its	
+----------- gold mention	T19	710	713	its	
+Correct response mention	T20	985	996	the complex	
+----------- gold mention	T21	985	996	the complex	
+-----------------------------------------------
+Spurious response mention	T12	20	30	a cofactor	
+Spurious response mention	T13	31	35	that	
+Spurious response mention	T14	266	298	a homeodomain-containing protein	
+Spurious response mention	T15	299	303	that	
+Spurious response mention	T16	387	391	that	
+Spurious response mention	T17	516	529	The formation	
+-----------------------------------------------
+Missing gold mention	T16	516	577	564	577	alpha complex	The formation of a stable tetrameric DCoH-HNF-1 alpha complex	
+Missing gold mention	T18	684	695	HNF-1 alpha	
+Missing gold mention	T20	884	929	909	929	tetrameric complexes	transcriptionally active tetrameric complexes	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R3	Anaphor=T17	Antecedent1=T16	2 point(s)	
+Missing gold link	R4	Anaphor=T19	Antecedent1=T18	1 point(s)	
+Missing gold link	R5	Anaphor=T20	Antecedent1=T16	2 point(s)	
+Missing gold link	R6	Anaphor=T21	Antecedent1=T16	2 point(s)	
+***********************************************
+PMID = PMID-10196286
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T12	647	650	its	
+----------- gold mention	T12	647	650	its	
+-----------------------------------------------
+Spurious response mention	T9	601	621	NF-kappaB activation	
+Spurious response mention	T10	622	626	that	
+Spurious response mention	T11	601	641	NF-kappaB activation that was correlated	
+Spurious response mention	T13	897	924	The STP-C488 P10-->R mutant	
+Spurious response mention	T14	1172	1185	Other factors	
+-----------------------------------------------
+Missing gold mention	T9	584	592	STP-C488	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R2	Anaphor=T12	Antecedent1=T9	1 point(s)	
+***********************************************
+PMID = PMID-8622948
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T41	1150	1198	anti-CD3 and anti-CD28 stimulated Rel-/- T cells	
+----------- gold mention	T40	1150	1198	1193	1198	cells	anti-CD3 and anti-CD28 stimulated Rel-/- T cells	
+Correct response mention	T45	1283	1288	which	
+----------- gold mention	T43	1283	1288	which	
+Correct response mention	T43	1200	1205	which	
+----------- gold mention	T41	1200	1205	which	
+Correct response mention	T44	1267	1281	Exogenous IL-2	
+----------- gold mention	T42	1267	1281	Exogenous IL-2	
+-----------------------------------------------
+Spurious response mention	T38	365	372	changes	
+Spurious response mention	T39	392	396	that	
+Spurious response mention	T40	918	928	the levels	
+Spurious response mention	T42	1150	1226	anti-CD3 and anti-CD28 stimulated Rel-/- T cells, which fail to proliferate,	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+Correct response link	R2	Anaphor=T43	Antecedent1=T41	2 point(s)	
+----------- gold link	R2	Anaphor=T41	Antecedent1=T40	2 point(s)	
+Correct response link	R4	Anaphor=T45	Antecedent1=T44	1 point(s)	
+----------- gold link	R3	Anaphor=T43	Antecedent1=T42	1 point(s)	
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9808189
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-1990263
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	122	133	high levels	
+Spurious response mention	T11	137	164	the neuropeptide enkephalin	
+Spurious response mention	T12	165	170	which	
+Spurious response mention	T13	336	359	a sequence GGGGACGTCCCC	
+Spurious response mention	T14	367	369	B2	
+Spurious response mention	T15	371	376	which	
+Spurious response mention	T16	391	423	the kappa B sequence GGGGACTTTCC	
+Spurious response mention	T17	902	912	the factor	
+Spurious response mention	T18	920	922	it	
+Spurious response mention	T19	1136	1170	yet another T-cell-specific factor	
+Spurious response mention	T20	1171	1176	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-9733846
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T26	1335	1347	the receptor	
+----------- gold mention	T27	1335	1347	the receptor	
+-----------------------------------------------
+Spurious response mention	T19	85	158	lymphoblastoid T-cell-line-expressing wild-type and mutated CD4 receptors	
+Spurious response mention	T20	566	602	the lymphoblastoid T-cell line A2.01	
+Spurious response mention	T21	703	720	mutated receptors	
+Spurious response mention	T22	721	725	that	
+Spurious response mention	T23	824	829	which	
+Spurious response mention	T24	1241	1273	monoclonal antibody (MAb) 13B8-2	
+Spurious response mention	T25	1275	1280	which	
+-----------------------------------------------
+Missing gold mention	T20	480	484	this	
+Missing gold mention	T19	386	472	390	403	investigation	our investigation of the role of the CD4 transduction pathway in HIV-induced apoptosis	
+Missing gold mention	T26	1290	1293	CD4	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T20	Antecedent1=T19	1 point(s)	
+Missing gold link	R5	Anaphor=T27	Antecedent1=T26	1 point(s)	
+***********************************************
+PMID = PMID-10092091
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T17	622	649	a soluble peptide inhibitor	
+Spurious response mention	T18	1166	1170	mice	
+Spurious response mention	T19	1171	1175	that	
+Spurious response mention	T20	1379	1385	itself	
+Spurious response mention	T21	1379	1419	itself a positive regulator of NF-kappaB	
+Spurious response mention	T22	1549	1568	compelling evidence	
+Spurious response mention	T23	1549	1592	compelling evidence that NF-kappaB protects	
+Spurious response mention	T24	1569	1573	that	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-1679576
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T10	189	192	its	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-1682217
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+Correct response mention	T25	600	606	a gene	
+----------- gold mention	T27	600	606	a gene	
+Correct response mention	T28	1528	1531	its	
+----------- gold mention	T30	1528	1531	its	
+Correct response mention	T24	281	283	It	
+----------- gold mention	T25	281	283	It	
+Correct response mention	T26	607	612	whose	
+----------- gold mention	T28	607	612	whose	
+-----------------------------------------------
+Spurious response mention	T27	1376	1404	this CAII reporter construct	
+-----------------------------------------------
+Missing gold mention	T24	223	279	251	259	receptor	the thyroid hormone (T3/T4) receptor c-erbA (type alpha)	
+Missing gold mention	T26	545	598	the erythrocyte-specific carbonic anhydrase II (CAII)	
+Missing gold mention	T29	1505	1511	v-erbA	
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+Missing gold link	R1	Anaphor=T25	Antecedent1=T24	1 point(s)	
+Missing gold link	R2	Anaphor=T27	Antecedent1=T26	2 point(s)	
+Missing gold link	R3	Anaphor=T28	Antecedent1=T26	2 point(s)	
+Missing gold link	R4	Anaphor=T30	Antecedent1=T29	1 point(s)	
+***********************************************
+PMID = PMID-9170401
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+***********************************************
+PMID = PMID-7486667
+EVALUATION OF MENTION DETECTION
+-----------------------------------------------
+-----------------------------------------------
+Spurious response mention	T8	306	311	which	
+Spurious response mention	T9	417	434	these two factors	
+Spurious response mention	T10	440	442	it	
+Spurious response mention	T11	451	479	the transactivating capacity	
+Spurious response mention	T12	483	505	the AP-1 protein c-Jun	
+Spurious response mention	T13	515	517	it	
+Spurious response mention	T14	548	573	the cytoplasmic inhibitor	
+Spurious response mention	T15	966	970	TPCK	
+Spurious response mention	T16	1054	1056	it	
+Spurious response mention	T17	1091	1094	JNK	
+Spurious response mention	T18	1096	1125	the MAP kinase-related kinase	
+Spurious response mention	T19	1126	1130	that	
+Spurious response mention	T20	1319	1338	a signaling pathway	
+Spurious response mention	T21	1339	1343	that	
+Spurious response mention	T22	1512	1524	this pathway	
+Spurious response mention	T23	1526	1531	which	
+-----------------------------------------------
+===============================================
+EVALUATION OF MENTION LINKING
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------

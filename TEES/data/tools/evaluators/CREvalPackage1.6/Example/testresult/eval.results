@@ -1,0 +1,21 @@
+********************************************************************************************************
+*** Evaluation results
+*** Evaluation settings: mention-option = partial	link-option = surface	recall-option = system
+********************************************************************************************************
+
+===============================================
+EVALUATION OF MENTION DETECTION
+Number of gold mentions : 4
+Number of response mentions : 5
+Number of correct response mentions : 4
+Number of missing gold mentions : 0
+Number of spurious response mentions : 1
+P = 0.8	R = 1.0	F = 0.888888888888889
+===============================================
+EVALUATION OF MENTION LINKING
+Number of gold links (points): 2
+Number of response links (points): 2
+Number of correct response links (points): 1
+Number of missing gold links (points) : 1
+Number of spurious response links (points): 1
+P = 0.5	R = 0.5	F = 0.5

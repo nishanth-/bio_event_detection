@@ -1,0 +1,16 @@
+ENTITY Entity
+ENTITY Protein
+EVENT Binding	Site [0,1] Entity	Theme [1,4] Protein
+EVENT Gene_expression	Theme [1,1] Protein
+EVENT Localization	AtLoc [0,1] Entity	Theme [1,1] Protein	ToLoc [0,1] Entity
+EVENT Negative_regulation	Cause [0,1] Binding,Gene_expression,Negative_regulation,Phosphorylation,Positive_regulation,Protein,Regulation	Site [0,1] Entity	Theme [1,1] Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein,Protein_catabolism,Regulation,Transcription
+EVENT Phosphorylation	Site [0,1] Entity	Theme [1,1] Protein
+EVENT Positive_regulation	Cause [0,1] Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein,Protein_catabolism,Regulation	Site [0,2] Entity	Theme [1,1] Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein,Protein_catabolism,Regulation,Transcription
+EVENT Protein_catabolism	Theme [1,1] Protein
+EVENT Regulation	Cause [0,1] Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein,Regulation,Transcription	Site [0,2] Entity	Theme [1,1] Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein,Protein_catabolism,Regulation,Transcription
+EVENT Transcription	Theme [1,1] Protein
+RELATION SiteParent	directed	Entity	Protein
+MODIFIER negation	Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein_catabolism,Regulation,Transcription
+MODIFIER speculation	Binding,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein_catabolism,Regulation,Transcription
+TARGET ENTITY	Binding,Entity,Gene_expression,Localization,Negative_regulation,Phosphorylation,Positive_regulation,Protein_catabolism,Regulation,Transcription
+TARGET INTERACTION	AtLoc,Cause,Site,SiteParent,Theme,ToLoc

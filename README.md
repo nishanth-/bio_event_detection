@@ -17,4 +17,4 @@ TEES code base(Subsection of download from https://github.com/jbjorne/TEES) is l
 
 Other info
 ==========
-PS: Since the preprocessed pickle files are also saved, PSN.ipynb can be directly run. If you would like to regenerate the preprocessed pickle file you can run data_preprocessing.ipynb which reads original GENIA dataset and generates preprocessed pickle file.
+PS: Since the preprocessed pickle files are also saved in "processed_data" folder, "PSN.ipynb" can be directly run. If you would like to regenerate the preprocessed pickle file yourself you can run "data_preprocessing.ipynb" which reads original GENIA dataset and generates preprocessed pickle file.

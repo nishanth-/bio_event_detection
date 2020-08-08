@@ -1,3 +1,6 @@
+Setup:
+Before launching jupyter notebook run "source set_env.sh" being in the directory containing this file. "set_env.sh" is tested on mac machine and should work on linux too on a bash shell
+The code requires both python 2.7 and python 3.0+ to be present in the system and might also require ruby to be present
 
 Main code and data files
 1) data_preprocessing.ipynb - Does data preprocessing and stores them as pickle files Requires python 2.7
